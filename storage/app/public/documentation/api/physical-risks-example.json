@@ -1,0 +1,127 @@
+{
+  "physical_risks": [
+    {
+      "id": "eyJpdiI6IlR1aWxKZ2hBc3JXOEpYN25IOTBXenc9PSIsInZhbHVlIjoieVk5RFhGMHZQTS92RTAwNnNJTExJUT09IiwibWFjIjoiNTU3Njg3YjE4ZWY4NTNmMmJmM2QwMGI2YmUxZTViNmQ4NTYwNzgzOGYwNmFiYmJjY2E2ZmExYTVmZTZhMTdkZSIsInRhZyI6IiJ9",
+      "created_by_user_id": "eyJpdiI6IjZkKzhVMGw0YnVsK01GUE9OZmRHalE9PSIsInZhbHVlIjoiWHNUeVZzbmUvRFhIWjB4RFJKRStOUT09IiwibWFjIjoiNjk2NGJkMDFlOWI3OGVmYTlkMWQ0YzM4NDM5YjdiN2RlNWY0OThmYmEzMjg1ZjAyZDRiNDljZGQ1MzMyODIzOCIsInRhZyI6IiJ9",
+      "questionnaire_id": "eyJpdiI6IjJNaDRMY1RJbHhqU0tUb0RBcXkrMGc9PSIsInZhbHVlIjoiYWlmb3pNNnFpV3FvUDBtRW52ckgvZz09IiwibWFjIjoiZmY0NzkyZmVmOTlhMDBiZGIwOTNiOGY3NWZhYTkzMDY3ODY0MjNhYmE5MDUwN2I5ZDY0MzgzY2UxNzdkZjQ5NiIsInRhZyI6IiJ9",
+      "name": "Teste F",
+      "description": null,
+      "country_iso": "PRT",
+      "country_code": 199,
+      "region_code": 2393,
+      "city_code": 24762,
+      "hazards": {
+        "data": [
+          {
+            "name": "River flood",
+            "risk": "High",
+            "enabled": 1,
+            "name_slug": "fl",
+            "risk_slug": "hig"
+          },
+          {
+            "name": "Urban flood",
+            "risk": "Very low",
+            "enabled": 1,
+            "name_slug": "uf",
+            "risk_slug": "vlo"
+          },
+          {
+            "name": "Coastal flood",
+            "risk": "Medium",
+            "enabled": 1,
+            "name_slug": "cf",
+            "risk_slug": "med"
+          },
+          {
+            "name": "Earthquake",
+            "risk": "Medium",
+            "enabled": 1,
+            "name_slug": "eq",
+            "risk_slug": "med"
+          },
+          {
+            "name": "Landslide",
+            "risk": "Low",
+            "enabled": 1,
+            "name_slug": "ls",
+            "risk_slug": "low"
+          },
+          {
+            "name": "Tsunami",
+            "risk": "Medium",
+            "enabled": 1,
+            "name_slug": "ts",
+            "risk_slug": "med"
+          },
+          {
+            "name": "Volcano",
+            "risk": "No Data",
+            "enabled": 1,
+            "name_slug": "va",
+            "risk_slug": "no-data"
+          },
+          {
+            "name": "Cyclone",
+            "risk": "No Data",
+            "enabled": 1,
+            "name_slug": "cy",
+            "risk_slug": "no-data"
+          },
+          {
+            "name": "Water scarcity",
+            "risk": "Low",
+            "enabled": 1,
+            "name_slug": "dg",
+            "risk_slug": "low"
+          },
+          {
+            "name": "Extreme heat",
+            "risk": "Medium",
+            "audits": [
+              {
+                "risk": "Extreme heat",
+                "user": "Test user",
+                "action": "change_level",
+                "new_slug": "med",
+                "old_slug": "low",
+                "new_value": "Medium",
+                "old_value": "Low",
+                "risk_slug": "eh",
+                "created_at": "2023-10-19T20:07:36.952158Z",
+                "description": "Ab quaerat velit asp"
+              }
+            ],
+            "enabled": 1,
+            "name_slug": "eh",
+            "risk_slug": "med"
+          },
+          {
+            "name": "Wildfire",
+            "risk": "High",
+            "enabled": 1,
+            "name_slug": "wf",
+            "risk_slug": "hig"
+          }
+        ],
+        "location": {
+          "city": "Faro",
+          "region": "Faro",
+          "country": "Portugal"
+        }
+      },
+      "note": "Repellendus Error m",
+      "relevant": "critical",
+      "completed": 0,
+      "completed_at": null,
+      "created_at": "2023-10-19T20:07:22.000000Z",
+      "updated_at": "2023-10-19T20:07:36.000000Z",
+      "deleted_at": null,
+      "business_sector_id": "eyJpdiI6InhOUEdIcTJudEptWk41dGhaSmhUSGc9PSIsInZhbHVlIjoiOVlJSU95RFRlaFJpbElJdzhvYWdldz09IiwibWFjIjoiN2IzOTI3YmM4ZTY0YTliOThmY2JjMzczOWM2YzUyNGQzZWI4YTE2OGQ0MjkxMDM3Mzk0YjY5YmFlMzlhOTJjMSIsInRhZyI6IiJ9",
+      "id_external": "9647a58e71433c3551f4839e25e91e89",
+      "created_by_user_id_external": "90b702e7544431625619a76b97044202",
+      "questionnaire_id_external": "61b4b06a7e885878115350883c8cc589",
+      "business_sector_id_external": "a3872101bd0c254424df0de93fd7d511"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+<input type="checkbox" {{ $attributes->merge(['class' => 'checked:bg-esg6 mr-3.5']) }}>

@@ -1,0 +1,50 @@
+includes:
+    - ./vendor/larastan/larastan/extension.neon
+
+parameters:
+  level: 6
+  phpVersion: 80200
+  paths:
+    - app/
+    - tests/
+    - config/
+    - resources/
+    - database/
+  excludePaths:
+    - storage
+    - vendor
+    - node_modules
+    - public
+    - *.blade.php
+  fileExtensions:
+    - php
+    - module
+    - inc
+  ignoreErrors:
+    - '#Call to an undefined method Illuminate\\Support\\HigherOrder#'
+    - '#Call to an undefined method [a-zA-Z0-9\\_]+::assignUsers()#'
+    - '#Call to an undefined method [a-zA-Z0-9\\_]+::availableUsers()#'
+    - '#Property [a-zA-Z0-9\\_]+::\$listeners has no type specified#'
+    - '#Property [a-zA-Z0-9\\_]+::\$searchable has no type specified#'
+    - '#Property [a-zA-Z0-9\\_]+::\$rules has no type specified#'
+    - '#Property [a-zA-Z0-9\\_]+::\$messages has no type specified#'
+    - '#\$groupBy of method [a-zA-Z0-9\\_]+::groupBy() expects array#'
+    - '#Method [a-zA-Z0-9\\_]+::apply() #'
+    - '#return type with generic class [a-zA-Z0-9\\_]+Attribute does not specify its types: TGet, TSet#'
+    - '#Unable to resolve the template type TKey in call to function collect#'
+    - '#in call to function collect#'
+    - '#Unable to resolve the template type TKey in call to function collect#'
+    - '#Unable to resolve the template type TValue in call to function collect#'
+    - '#Method [a-zA-Z0-9\\_]+::getResourceProperty() return type with generic class#'
+    - '#Method [a-zA-Z0-9\\_]+::getSearchableColumns() return type with generic class#'
+    - '#return type with generic class Illuminate\\Pagination\\LengthAwarePaginator does not specify its types#'
+    - '#return type with generic class Illuminate\\Pagination\\Paginator does not specify its types#'
+    - '#has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types: TModelClass#'
+    - '#return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types: TModelClass#'
+    - '#return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types: TRelatedModel, TChildModel#'
+    - '#Call to an undefined method [a-zA-Z0-9\\_]+::goToPage()#'
+    - '#Access to an undefined property [a-zA-Z0-9\\_]+::\$globalFilters#'
+  parallel:
+    jobSize: 5
+    maximumNumberOfProcesses: 2
+    minimumNumberOfJobsPerProcess: 2

@@ -1,0 +1,35 @@
+<?php
+
+namespace App\Http\Middleware;
+
+use Auth;
+use Closure;
+use Illuminate\Http\Request;
+use Sentry\State\Scope;
+
+class SentryUser
+{
+    /**
+     * Handle an incoming request.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Closure(\Illuminate\Http\Request): (\Illuminate\Http\Response|\Illuminate\Http\RedirectResponse)  $next
+     * @return \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse
+     */
+    public function handle(Request $request, Closure $next)
+    {
+        if (Auth::check() && app()->bound('sentry')) {
+            \Sentry\configureScope(function (Scope $scope): void {
+                $scope->setUser([
+                    'id'    => Auth::user()->id,
+                    'email' => Auth::user()->email,
+                    'name'  => Auth::user()->name,
+                ]);
+
+                $scope->setExtra('url', request()->url());
+            });
+        }
+
+        return $next($request);
+    }
+}

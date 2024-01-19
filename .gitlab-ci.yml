@@ -1,0 +1,231 @@
+image: alpine:latest
+
+stages:
+    - static-tests
+    - build
+    - test
+    - accessibility
+    - performance
+    - release
+    - deploy
+    - e2e-test
+    - dast
+
+include:
+  - template: Security/SAST.gitlab-ci.yml
+  - template: DAST.gitlab-ci.yml
+  - template: Security/Dependency-Scanning.gitlab-ci.yml
+  - template: Security/Container-Scanning.gitlab-ci.yml
+  - template: Security/Secret-Detection.gitlab-ci.yml
+  - template: Code-Quality.gitlab-ci.yml
+  - template: Security/SAST-IaC.gitlab-ci.yml
+
+variables:
+  DEPLOY_LABEL: "review-app::deploy"
+  APP_NAME: "review-$CI_COMMIT_REF_SLUG"
+  GIT_DEPTH: "0"
+  a11y_urls: "https://esg-maturity.com"
+  TERRAFORM_ROOT_FOLDER: "terraform"
+
+#cache:
+#  paths:
+#    - /builds/c-more/app/vendor
+#    - /builds/c-more/app/node_modules
+
+phpcs-PSR12:
+  stage: static-tests
+  image: registry.gitlab.com/pipeline-components/php-codesniffer:latest
+  script:
+    - phpcs -s -p --colors --extensions=php --standard=PSR12 --ignore=vendor,node_modules,tests,config/*,index.php,database/migrations/*,resources/views/icons/* .
+    - phpcs -s -p --colors --extensions=php --standard=MoxioSniffs --ignore=vendor,node_modules,tests,config/*,index.php,database/migrations/*,resources/views/icons/* .
+  allow_failure: true
+
+eslint:
+  stage: static-tests
+  image: node
+  script:
+    - npm install eslint eslint-config-airbnb
+    - npm run lint
+  allow_failure: true
+
+php-compatibility-8.1:
+  stage: static-tests
+  image: registry.gitlab.com/pipeline-components/php-codesniffer:latest
+  variables:
+    PHPVERSION: "8.1"
+  script:
+    - phpcs -s -p --colors --ignore=routes/console.php --standard=PHPCompatibility --extensions=php --runtime-set testVersion ${PHPVERSION} .
+  allow_failure: true
+
+build:
+  stage: build
+  image: docker
+  services:
+    - docker:dind
+  before_script:
+    - BRANCH_NAME="${CI_COMMIT_BRANCH:-$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME}"
+    - IMAGE_TAG="v$CI_COMMIT_SHA.$BRANCH_NAME.$(date +%Y-%m-%d_%H-%M-%S)"
+    - echo "IMAGE_TAG=$IMAGE_TAG" >> deploy.env
+    - apk --no-cache add bash curl
+    - curl --silent "https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/download-secure-files/-/raw/main/installer" | bash
+    - cp .secure_files/auth.json auth.json
+  script:
+    - echo "$REPOSITORY_ACCESS_TOKEN" | docker login -u "$REPOSITORY_ACCESS_USERNAME" --password-stdin registry.gitlab.com
+    - docker build --build-arg version=$CI_COMMIT_SHA -t $CI_REGISTRY_IMAGE:$IMAGE_TAG .
+    - docker push $CI_REGISTRY_IMAGE:$IMAGE_TAG
+    - docker tag $CI_REGISTRY_IMAGE:$IMAGE_TAG $CI_REGISTRY_IMAGE:$BRANCH_NAME-latest
+    - docker push $CI_REGISTRY_IMAGE:$BRANCH_NAME-latest
+  artifacts:
+    reports:
+      dotenv: deploy.env
+  rules:
+    - if: $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "main"
+    - if: $CI_COMMIT_BRANCH == "main"
+    - if: $CI_COMMIT_BRANCH == "staging"
+    - if: $CI_COMMIT_BRANCH == "production"
+
+php tests:
+  stage: static-tests
+  image: php:latest
+  variables:
+    XDEBUG_MODE: coverage
+  before_script:
+    - apt-get update && apt-get -yq install curl libmemcached-dev libzip-dev zip unzip libz-dev libpq-dev libjpeg-dev libpng-dev libfreetype6-dev libssl-dev libwebp-dev libxpm-dev libmcrypt-dev libonig-dev apt-utils gnupg2 git zlib1g-dev libicu-dev g++ jpegoptim optipng pngquant gifsicle libmagickwand-dev imagemagick
+    - docker-php-ext-install bcmath gd intl opcache pdo_mysql zip
+    - pecl install xdebug
+    - docker-php-ext-enable bcmath gd intl opcache pdo_mysql sodium xdebug zip
+    - curl --silent "https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/download-secure-files/-/raw/main/installer" | bash
+    - cp .secure_files/auth.json auth.json
+    - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+    - php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+    - composer update
+    - composer install
+    - composer require --dev phpunit/phpunit phpunit/php-code-coverage
+  script:
+    - php ./vendor/bin/phpunit --log-junit report.xml --coverage-text --colors=never
+  rules:
+    - if: "$CI_PIPELINE_SOURCE == 'merge_request_event'"
+  coverage: '/^\s*Lines:\s*\d+.\d+\%/'
+  allow_failure: true
+  artifacts:
+    reports:
+      junit: report.xml
+
+container_scanning:
+  variables:
+    CS_IMAGE: $CI_REGISTRY_IMAGE:main-latest
+  dependencies:
+    - "build"
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+
+release:
+  stage: release
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  rules:
+    - if: "$CI_COMMIT_TAG"
+      when: never
+    - if: $CI_COMMIT_BRANCH == "production"
+  script:
+    - echo "Creating release for $TAG"
+  release:
+    tag_name: v22.$CI_PIPELINE_IID
+    description: |
+      Release: v22.$CI_PIPELINE_IID
+      Docker Image: $CI_REGISTRY_IMAGE:$IMAGE_TAG
+    ref: "$CI_COMMIT_SHA"
+  dependencies:
+    - build
+
+development:
+  stage: deploy
+  image:
+    name: hashicorp/terraform:latest
+    entrypoint: [""]
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+  before_script:
+    - apk --no-cache add bash curl
+    - curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
+    - ibmcloud plugin install code-engine
+  script:
+    - cd $TERRAFORM_ROOT_FOLDER/cmore/app
+    - terraform init -backend-config="username=${TF_USERNAME}" -backend-config="password=${TF_PASSWORD}"
+    - terraform plan -out deploy.out -var "ibmcloud_api_key=$IBMCLOUD_API_KEY" -var "docker_image=$CI_REGISTRY_IMAGE:$IMAGE_TAG"
+    - terraform apply -auto-approve deploy.out
+  dependencies:
+    - build
+
+staging:
+  stage: deploy
+  image:
+    name: hashicorp/terraform:latest
+    entrypoint: [""]
+  rules:
+    - if: $CI_COMMIT_BRANCH == "staging"
+  before_script:
+    - apk --no-cache add bash curl
+    - curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
+    - ibmcloud plugin install code-engine
+  script:
+    - cd $TERRAFORM_ROOT_FOLDER/esg-maturity/stg
+    - terraform init -backend-config="username=${TF_USERNAME}" -backend-config="password=${TF_PASSWORD}"
+    - terraform plan -out deploy.out -var "ibmcloud_api_key=$IBMCLOUD_API_KEY" -var "docker_image=$CI_REGISTRY_IMAGE:$IMAGE_TAG"
+    - terraform apply -auto-approve deploy.out
+  environment:
+    name: staging
+    url: https://esg-maturity.pt
+  variables:
+    IBM_CLOUD_REGION: eu-de
+  dependencies:
+    - build
+
+staging-test:
+  stage: e2e-test
+  rules:
+    - if: $CI_COMMIT_BRANCH == "staging"
+  image: cypress/browsers:node18.12.0-chrome106-ff106
+  services:
+    - docker:dind
+  script:
+    # install dependencies
+    - npm ci
+    # run Cypress tests
+    # - npx cypress run --spec cypress/e2e/integration/main.cy.js
+  dependencies:
+    - build
+    - staging
+  allow_failure: true
+
+production:
+  stage: deploy
+  image:
+    name: hashicorp/terraform:latest
+    entrypoint: [""]
+  rules:
+    - if: $CI_COMMIT_BRANCH == "production"
+  before_script:
+    - apk --no-cache add bash curl
+    - curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
+    - ibmcloud plugin install code-engine
+  script:
+    - cd $TERRAFORM_ROOT_FOLDER/esg-maturity/prod
+    - terraform init -backend-config="username=${TF_USERNAME}" -backend-config="password=${TF_PASSWORD}"
+    - terraform plan -out deploy.out -var "ibmcloud_api_key=$IBMCLOUD_API_KEY" -var "docker_image=$CI_REGISTRY_IMAGE:$IMAGE_TAG"
+    - terraform apply -auto-approve deploy.out
+  variables:
+    IBM_CLOUD_REGION: eu-de
+  dependencies:
+    - build
+
+dast:
+  stage: dast
+  dast_configuration:
+    site_profile: "Staging » Central » Website"
+    scanner_profile: "Passive Scanner"
+
+dast:
+  stage: dast
+  dast_configuration:
+    site_profile: "Staging » Tenant » Website"
+    scanner_profile: "Passive Scanner"

@@ -1,0 +1,5 @@
+codigo,atividade,VOLUME,CAPEX,OPEX,Salvaguardas mínimas,Mitigação das alterações climáticas,Adaptação às alterações climáticas,Recursos hídricos e marinhos,Economia circular,Poluição,Biodiversidade e ecossistemas,NPS Mitigação das alterações climáticas,NPS Adaptação às alterações climáticas,NPS Recursos hídricos e marinhos,NPS Economia circular,NPS Poluição,NPS Biodiversidade e ecossistemas
+1.2,Example 01,214781,352452,234525,s,60,40,,,,,s,s,s,s,s,s
+2.1,Example 02,424123,213423,234245,s,0,100,,,,,s,s,s,s,s,s
+3.1,Example 03,123342,203453,562514,s,,,,,,,,,,,,
+2.1,Example 02,231231,232112,456346,s,0,100,,,,,n,n,n,s,s,s

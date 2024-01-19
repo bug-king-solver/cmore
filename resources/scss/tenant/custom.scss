@@ -1,0 +1,142 @@
+table {
+    button {
+        &.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            pointer-events: none;
+
+            &:hover {
+                cursor: not-allowed;
+            }
+        }
+    }
+}
+
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.ql-editor {
+    table,
+    td {
+        border: 1px solid #000;
+        border-radius: 5px;
+        border-collapse: collapse;
+    }
+
+    td {
+        padding: 5px;
+    }
+}
+
+.ql-toolbar.ql-snow .ql-formats {
+    margin-bottom: 10px;
+}
+
+.enter-transition {
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+    transform: translateY(50px);
+
+    &.active {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.ts-dropdown {
+    display: block !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: 0.3s;
+}
+
+.dropdown-active {
+    .ts-dropdown {
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+}
+
+#dropdown-menu {
+    top: -64px;
+    right: 0px;
+}
+
+.accordion-item {
+    .accordion-button {
+        span {
+            &:first-of-type {
+                display: none;
+            }
+        }
+    }
+
+    &.active {
+        > .accordion-header {
+            .accordion-button {
+                span {
+                    &:first-of-type {
+                        display: block;
+                    }
+
+                    &:last-of-type {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.after-class {
+    // @apply relative;
+
+    &.current {
+        > div {
+            border: 4px solid #4c8056;
+            background-color: transparent;
+            transition: 0.3s;
+        }
+    }
+
+    &::before,
+    &::after {
+        /* @apply content-[""] w-[calc(100%_-_96px)] h-1 absolute duration-300 bg-[#E1E6EF] -z-10 left-[70px]  rounded-md;
+            @apply; */
+        content: "";
+        width: calc(100% - 96px);
+        height: 4px;
+        border-radius: 2px;
+        position: absolute;
+        left: 70px;
+        transition: 0.8s;
+        background-color: #e1e6ef;
+        z-index: -10;
+    }
+
+    &::after {
+        /* @apply w-0 bg-[#4C8056]; */
+        width: 0px;
+        background-color: #4c8056;
+    }
+
+    &.active {
+        /* @apply bg-[#4C8056] text-[#ffffff] text-xl; */
+        > div {
+            background-color: #4c8056;
+            color: white;
+            font-size: 20px;
+        }
+
+        &::after {
+            /* @apply w-[calc(100%_-_96px)]; */
+            width: calc(100% - 96px);
+        }
+    }
+}

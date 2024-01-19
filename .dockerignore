@@ -1,0 +1,9 @@
+terraform
+storage/tenant*
+.git*
+.env.*
+.idea
+.pre-commit-config.yaml
+docker-compose.yml
+docker/mysql
+docker/redis

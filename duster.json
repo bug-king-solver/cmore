@@ -1,0 +1,27 @@
+{
+  "processTimeout": 180,
+  "scripts": {
+    "lint": {
+      "PHP Version": [ "php", "-v" ],
+      "PHPStan Version": [ "./vendor/bin/phpstan", "-V" ],
+      "PHPStan": [ "./vendor/bin/phpstan", "analyse" ],
+      "PHP CS VERSION": [ "phpcs", "--version" ],
+      "PHP CS": [ "phpcs" ],
+      "PHP phpinsights": [ "phpinsights", "analyse" ]
+    }
+  },
+  "include": [
+    "app"
+  ],
+  "exclude": [
+    "bootstrap",
+    "storage",
+    "vendor",
+    "node_modules",
+    "docker",
+    "tests",
+    "resources",
+    "routes",
+    "public"
+  ]
+}

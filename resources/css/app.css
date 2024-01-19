@@ -1,0 +1,658 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import "/node_modules/tom-select/dist/css/tom-select";
+
+@import "/node_modules/flag-icons/css/flag-icons";
+
+@import "/node_modules/quill/dist/quill.snow.css";
+
+@import 'flatpickr/dist/flatpickr.min.css';
+/* @import 'flatpickr/dist/themes/material_orange.css'; */
+
+@import '/node_modules/vanilla-picker/dist/vanilla-picker.csp.css';
+
+:root {
+    --comments-spacing: 2.5rem;
+    --comments-avatar-size: 2.5rem;
+    --comments-avatar-margin: 0.75rem;
+    --comments-border-radius: 0.3rem;
+    --comments-z-modal: 2;
+
+    /* colors */
+    --comments-color-background: white;
+    --comments-color-background-nested: inherit;
+    --comments-color-background-paper: rgb(249, 250, 251);
+    --comments-color-background-info: rgb(237, 235, 252);
+
+    --comments-color-reaction: rgb(238, 239, 240);
+    --comments-color-reaction-hover: rgb(229, 231, 235);
+    --comments-color-reacted: rgba(67, 56, 202, 0.2);
+    --comments-color-reacted-hover: rgba(67, 56, 202, 0.35);
+
+    --comments-color-border: rgb(221, 221, 221);
+
+    --comments-color-text: inherit;
+    --comments-color-text-dimmed: rgb(156, 163, 175);
+    --comments-color-text-inverse: white;
+
+    --comments-color-accent: rgba(67, 56, 202);
+    --comments-color-accent-hover: rgba(67, 56, 202, 0.8);
+
+    --comments-color-danger: rgb(225, 29, 72);
+    --comments-color-danger-hover: rgb(225, 29, 72, 0.8);
+
+    --comments-color-success: rgb(10, 200, 134);
+    --comments-color-success-hover: rgb(10, 200, 134, 0.8);
+
+    --comments-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+        0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+[type="text"]:focus,
+[type="email"]:focus,
+[type="url"]:focus,
+[type="password"]:focus,
+[type="number"]:focus,
+[type="date"]:focus,
+[type="datetime-local"]:focus,
+[type="month"]:focus,
+[type="search"]:focus,
+[type="tel"]:focus,
+[type="time"]:focus,
+[type="week"]:focus,
+[multiple]:focus,
+textarea:focus,
+select:focus {
+    @apply ring-0 border-esg6;
+}
+
+/*!
+ * Tom Select
+ * https://tom-select.js.org/
+ */
+.ts-control {
+    @apply focus:outline-none rounded-md gap-2 py-1 px-2;
+}
+
+.plugin-dropdown_input .dropdown-input {
+    border: 1px solid #E1E6EF;
+    border-radius: 4px;
+    outline: none;
+}
+
+.dropdown-input-wrap {
+    padding: 4px;
+}
+
+.plugin-dropdown_input .dropdown-input {
+    border: 1px solid #E1E6EF;
+    border-radius: 4px;
+    outline: none;
+}
+
+.dropdown-input-wrap {
+    padding: 4px;
+}
+
+.target .ts-control,
+.questionnaire .ts-control,
+.user .ts-control,
+.role .ts-control,
+.tasks .ts-control,
+.validator .ts-control,
+.company .ts-control,
+.company_address .ts-control {
+    @apply !border-0 !bg-esg7/10 min-h-[3rem] !text-esg8 !place-items-center;
+}
+
+.tdp-dashboard .ts-control {
+    @apply !border-esg10 min-h-[2.6rem] !text-esg8 !place-items-center;
+}
+
+.benchmarking .ts-control,
+.benchmarking .ts-wrapper.single.input-active .ts-control {
+    @apply bg-esg4/[.14] border border-esg8/50;
+}
+
+.event-registration .ts-control {
+    @apply block w-full text-base text-[#dddddd] border-[#dddddd] focus:border-esg5 focus:ring-esg5 placeholder-shown:text-[#8A8A8A] placeholder:text-[#8A8A8A] placeholder:text-base flex flex-row items-center h-[32px] block text-lg text-[#343A3F] border-[1px] rounded-lg;
+}
+
+.event-registration.has-error .ts-control {
+    @apply border-red-500 focus:border-esg5 focus:ring-esg5;
+}
+
+.event-registration.has-error .ts-control > input {
+    @apply border-[1px] focus:border-esg5 focus:ring-esg5;
+}
+
+.event-registration .ts-control,
+.event-registration .ts-wrapper.single.input-active .ts-control {
+    @apply bg-transparent !important;
+}
+
+.event-registration .ts-control,
+.event-registration .ts-control input,
+.event-registration .ts-control .item {
+    @apply text-[#343A3F] text-base w-full placeholder:text-[#8A8A8A] flex flex-row items-start;
+}
+
+.event-registration .ts-control .item > div {
+    @apply !text-[#343A3F] !text-base flex flex-row items-center text-center !pl-[1px];
+}
+
+.ts-wrapper.plugin-remove_button .item {
+    @apply rounded-md;
+}
+
+.ts-control > input {
+    @apply h-7 !text-esg29 min-w-fit;
+}
+
+.ts-wrapper.single .ts-control > div {
+    @apply p-0 m-0 border-esg6 rounded-md text-lg;
+}
+
+.ts-wrapper.single .ts-control > div,
+.ts-wrapper.multi .ts-control > div {
+    @apply px-2 py-1 m-0 text-esg29 bg-esg6/[.14] text-sm;
+}
+
+.ts-wrapper.single.event-registration .ts-control > div,
+.ts-wrapper.multi.event-registration .ts-control > div {
+    @apply bg-transparent text-[#dddddd] text-lg;
+}
+
+.ts-wrapper.single.event-registration .ts-control {
+    @apply !py-0 !pl-[12px];
+}
+
+.ts-wrapper.single.event-registration .ts-control .item {
+    @apply !py-1 !pl-[0px];
+}
+
+.benchmarking .ts-wrapper.multi .ts-control > div,
+.benchmarking .ts-wrapper.single .ts-control > div {
+    @apply px-2 py-1 m-0 text-esg8 bg-esg61 text-sm;
+}
+
+.ts-wrapper.plugin-remove_button .item > div {
+    @apply p-0;
+}
+
+.ts-wrapper.plugin-remove_button .item .remove {
+    @apply px-2 mx-1 m-0 border-none text-lg rounded-r-md leading-5;
+}
+
+.ts-dropdown {
+    @apply rounded-md border-none shadow-bxesg1 text-base text-esg29;
+}
+
+.ts-dropdown .optgroup > div:first-child {
+    @apply text-esg28 font-bold px-2 py-1;
+}
+
+.ts-dropdown [data-selectable].option:first-child {
+    @apply rounded-t-md;
+}
+
+.ts-dropdown [data-selectable].option:last-child {
+    @apply rounded-b-md;
+}
+
+.ts-dropdown .create:hover,
+.ts-dropdown .option:hover {
+    @apply bg-esg6/[.14] text-esg29;
+}
+
+.ts-dropdown .active {
+    @apply bg-esg4 text-esg29;
+}
+
+.blueselect .ts-control,
+.blueselect .ts-wrapper.multi.has-items .ts-control {
+    @apply py-2	px-3;
+}
+
+.blueselect .ts-wrapper.single .ts-control > div,
+.blueselect .ts-wrapper.multi .ts-control > div {
+    @apply bg-esg6 text-esg27;
+}
+
+/*!
+ * Load Awesome v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Licensed under MIT
+ */
+.la-ball-spin-clockwise-fade,
+.la-ball-spin-clockwise-fade > div {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.la-ball-spin-clockwise-fade {
+    display: block;
+    font-size: 0;
+    color: #fff;
+}
+.la-ball-spin-clockwise-fade.la-dark {
+    color: #333;
+}
+.la-ball-spin-clockwise-fade > div {
+    display: inline-block;
+    float: none;
+    background-color: currentColor;
+    border: 0 solid currentColor;
+}
+.la-ball-spin-clockwise-fade {
+    width: 32px;
+    height: 32px;
+}
+.la-ball-spin-clockwise-fade > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+    margin-left: -4px;
+    border-radius: 100%;
+    -webkit-animation: ball-spin-clockwise-fade 1s infinite linear;
+    -moz-animation: ball-spin-clockwise-fade 1s infinite linear;
+    -o-animation: ball-spin-clockwise-fade 1s infinite linear;
+    animation: ball-spin-clockwise-fade 1s infinite linear;
+}
+.la-ball-spin-clockwise-fade > div:nth-child(1) {
+    top: 5%;
+    left: 50%;
+    -webkit-animation-delay: -0.875s;
+    -moz-animation-delay: -0.875s;
+    -o-animation-delay: -0.875s;
+    animation-delay: -0.875s;
+}
+.la-ball-spin-clockwise-fade > div:nth-child(2) {
+    top: 18.1801948466%;
+    left: 81.8198051534%;
+    -webkit-animation-delay: -0.75s;
+    -moz-animation-delay: -0.75s;
+    -o-animation-delay: -0.75s;
+    animation-delay: -0.75s;
+}
+.la-ball-spin-clockwise-fade > div:nth-child(3) {
+    top: 50%;
+    left: 95%;
+    -webkit-animation-delay: -0.625s;
+    -moz-animation-delay: -0.625s;
+    -o-animation-delay: -0.625s;
+    animation-delay: -0.625s;
+}
+.la-ball-spin-clockwise-fade > div:nth-child(4) {
+    top: 81.8198051534%;
+    left: 81.8198051534%;
+    -webkit-animation-delay: -0.5s;
+    -moz-animation-delay: -0.5s;
+    -o-animation-delay: -0.5s;
+    animation-delay: -0.5s;
+}
+.la-ball-spin-clockwise-fade > div:nth-child(5) {
+    top: 94.9999999966%;
+    left: 50.0000000005%;
+    -webkit-animation-delay: -0.375s;
+    -moz-animation-delay: -0.375s;
+    -o-animation-delay: -0.375s;
+    animation-delay: -0.375s;
+}
+.la-ball-spin-clockwise-fade > div:nth-child(6) {
+    top: 81.8198046966%;
+    left: 18.1801949248%;
+    -webkit-animation-delay: -0.25s;
+    -moz-animation-delay: -0.25s;
+    -o-animation-delay: -0.25s;
+    animation-delay: -0.25s;
+}
+.la-ball-spin-clockwise-fade > div:nth-child(7) {
+    top: 49.9999750815%;
+    left: 5.0000051215%;
+    -webkit-animation-delay: -0.125s;
+    -moz-animation-delay: -0.125s;
+    -o-animation-delay: -0.125s;
+    animation-delay: -0.125s;
+}
+.la-ball-spin-clockwise-fade > div:nth-child(8) {
+    top: 18.179464974%;
+    left: 18.1803700518%;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+}
+.la-ball-spin-clockwise-fade.la-sm {
+    width: 16px;
+    height: 16px;
+}
+.la-ball-spin-clockwise-fade.la-sm > div {
+    width: 4px;
+    height: 4px;
+    margin-top: -2px;
+    margin-left: -2px;
+}
+.la-ball-spin-clockwise-fade.la-2x {
+    width: 64px;
+    height: 64px;
+}
+.la-ball-spin-clockwise-fade.la-2x > div {
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+.la-ball-spin-clockwise-fade.la-3x {
+    width: 96px;
+    height: 96px;
+}
+.la-ball-spin-clockwise-fade.la-3x > div {
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+    margin-left: -12px;
+}
+
+.custom-scroll {
+    &::-webkit-scrollbar {
+      width: 10px;
+    }
+  
+    &::-webkit-scrollbar-track {
+      background: #F3F4F6;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: #888; 
+      border-radius: 10px; 
+    }
+  }
+
+/*
+  * Animation
+  */
+@-webkit-keyframes ball-spin-clockwise-fade {
+    50% {
+        opacity: 0.25;
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@-moz-keyframes ball-spin-clockwise-fade {
+    50% {
+        opacity: 0.25;
+        -moz-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@-o-keyframes ball-spin-clockwise-fade {
+    50% {
+        opacity: 0.25;
+        -o-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes ball-spin-clockwise-fade {
+    50% {
+        opacity: 0.25;
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #444444 !important;
+}
+
+input[name="vat_number"]:-webkit-autofill,
+input[name="name"]:-webkit-autofill,
+input[name="color"]:-webkit-autofill {
+    -webkit-text-fill-color: rgb(21 58 91 / var(--tw-text-opacity)) !important;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    @apply bg-esg4;
+}
+
+input[type="range"]::-moz-range-thumb {
+    @apply bg-esg4;
+}
+
+/**
+* Use the whitelabel class to every parent node whose button and link children
+* you would like to apply the custom color 'esgwl' to, for example
+*/
+.whitelabel a:not(.contact-footer) {
+    @apply !text-esgwl;
+}
+
+.whitelabel
+    button:not(.locale-tick):not(#show_password):not(#hide_password):not(
+        #show_confirmation
+    ):not(#hide_confirmation),
+.whitelabel input[type="checkbox"]:valid {
+    @apply !bg-esgwl;
+}
+
+/**
+* Classes for radar graph badges absolute positions
+*/
+
+.startup5-0 {
+    top: 6%;left: 0%;right: 0;
+}
+.startup5-1 {
+    right: -1%;top: 34%;
+}
+.startup5-2 {
+    right: 13%;top: 78%;
+}
+.startup5-3 {
+    left: 13%;top: 78%;
+}
+.startup5-4 {
+    left: -1%;top: 34%;
+}
+
+
+
+.asses5-0 {
+    top: -5%;left: 0%;right: 0;
+}
+.asses5-1 {
+    right: -1%;top: 31%;
+}
+.asses5-2 {
+    right: 13%;top: 75%;
+}
+.asses5-3 {
+    left: 13%;top: 75%;
+}
+.asses5-4 {
+    left: -1%;top: 31%;
+}
+
+.asses4-0 {
+    top: -5px;left: 0;right: 0;
+}
+.asses4-1 {
+    right: -2%;top: 40%;
+}
+.asses4-2 {
+    right: 0;bottom: 4%;left: 0;
+}
+.asses4-3 {
+    left: -3%;top: 40%;
+}
+
+.asses3-0 {
+    top: -5px; left: 0;right: 0;
+}
+.asses3-1 {
+    right: -2%;top: 62%;
+}
+.asses3-2 {
+    left: -2%; top: 62%;
+}
+
+/**
+  * AlpineJS
+  */
+[x-cloak] {
+    display: none !important;
+}
+
+
+/**
+* CSP Rules
+*/
+.mask-alpha {
+    mask-type: alpha;
+}
+
+.enable-background {
+    enable-background: new 0 0 330 330
+}
+
+.clip-path-no-poverty {
+    clip-path: polygon(51.7% 0%, 66.6% 2.8%, 58.6% 23.2%, 51.7% 21.8%);
+}
+
+.clip-path-zero-hunger {
+    clip-path: polygon(69.6% 4%, 82.4% 12%, 67.8% 28%, 61.8% 24.4%);
+}
+
+.clip-path-good-health {
+    clip-path: polygon(85% 14.4%, 94% 26.4%, 74.6% 36%, 70.2% 30.2%);
+}
+
+.clip-path-quality-education {
+    clip-path: polygon(95.4% 29.2%, 99.6% 43.6%, 78% 45.8%, 76% 39%);
+}
+
+.clip-path-gender-equality {
+    clip-path: polygon(78.2% 49%, 99.8% 47%, 98.4% 62%, 77.5% 56%);
+}
+
+.clip-path-clean-water {
+    clip-path: polygon(76.6% 59.2%, 97.4% 65.2%, 90.5% 78.6%, 74.3% 65.2%);
+}
+.clip-path-clean-energy {
+    clip-path: polygon(71.4% 68.4%, 88.6% 81.5%, 77.5% 91.6%, 66.2% 73.1%);
+}
+
+.clip-path-decent-work {
+    clip-path: polygon(63.6% 74.7%, 75.2% 93%, 61.4% 98.6%, 57.2% 77.2%);
+}
+
+.clip-path-industry {
+    clip-path: polygon(46.8% 78.1%, 53.8% 77.8%, 57.9% 99.3%, 42.8% 99.5%);
+}
+
+.clip-path-reduced-inequalities {
+    clip-path: polygon(39.5% 99%, 25.2% 93.4%, 36.6% 74.9%, 43.4% 77.5%);
+}
+
+.clip-path-sustainable-cities {
+    clip-path: polygon(22.6% 92%, 11.2% 81.6%, 28.4% 68.5%, 33.8% 73.3%);
+}
+
+.clip-path-responsible-consumption {
+    clip-path: polygon(9.2% 78.8%, 2.4% 65.1%, 23.3% 59.2%, 26.6% 65.6%);
+}
+
+.clip-path-climate-action {
+    clip-path: polygon(1.5% 62.1%, 0% 46.9%, 21.7% 48.6%, 22.3% 56.1%);
+}
+
+.clip-path-life-water {
+    clip-path: polygon(0% 43.5%, 4.6% 28.8%, 24% 38.6%, 22% 45.5%);
+}
+
+.clip-path-life-land {
+    clip-path: polygon(6% 26%, 15.2% 13.8%, 30% 30%, 25.4% 35.7%);
+}
+
+.clip-path-peace-justice {
+    clip-path: polygon(17.8% 11.7%, 30.5% 3.9%, 38.5% 24%, 32.4% 28%);
+}
+
+.clip-path-partnerships-goals {
+    clip-path: polygon(33.6% 2.8%, 48.6% 0%, 48.6% 21.8%, 41.4% 23%);
+}
+
+/**
+   These css are only for print version
+*/
+@media print {
+    #launcher {
+        display: none;
+    }
+    .pagebreak {
+        padding-top: 50px;
+        clear: both;
+        page-break-after: always;
+    }
+    .pagebreak-unset {
+        page-break-inside: unset;
+    }
+    div {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+    .nonavoid {
+        break-inside: auto;
+    }
+    #launcher, #footer {
+        visibility: hidden;
+    }
+    .print {
+        page-break-after: avoid;
+    }
+}
+@page {
+    size: A4; /* DIN A4 standard, Europe */
+    /* margin: 70pt 60pt 70pt; */
+}
+
+
+input {
+    @apply ring-offset-0 ring-0;
+}

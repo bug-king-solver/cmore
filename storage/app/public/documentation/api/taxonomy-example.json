@@ -1,0 +1,2263 @@
+{
+  "taxonomy": {
+    "id": "eyJpdiI6IjliY2VkL3k3OTF1V2tERXc1dTFtTVE9PSIsInZhbHVlIjoiRmtLRnRIWm10Smt4dWVmS2dqWXc1dz09IiwibWFjIjoiOTc1NGE0MDdiMDE4Yzg2ZTQ4NjcxNTQ5MjYyMzU5N2I3MGE1ZTBiYjU3MGNlMmMyYzEzZWVjNGVhYThjNzU1OCIsInRhZyI6IiJ9",
+    "imported_file_url": null,
+    "created_at": "2023-10-19T16:44:52.000000Z",
+    "updated_at": "2023-10-19T19:40:09.000000Z",
+    "questionnaire_id": "eyJpdiI6IlJYbG5xU0UxMndwOHlRWDM1bSt3V0E9PSIsInZhbHVlIjoicFVybmFERFpMblJKRjBhR1MzTit1QT09IiwibWFjIjoiNjIxZWM1NjRkNzhiNjE3MmZmOTQ1ZDFkYTcyN2M5YjJkNTMwNzlhZWVjZmYwOWQ3NTk2NDBiMDNlYTZhOTIwOSIsInRhZyI6IiJ9",
+    "business_resume": {
+      "total": {
+        "opex": 100,
+        "capex": 100,
+        "volume": 100
+      },
+      "eligible": {
+        "opex": 100,
+        "capex": 100,
+        "volume": 100
+      },
+      "notEligible": {
+        "opex": 0,
+        "capex": 0,
+        "volume": 0
+      },
+      "eligibleAligned": {
+        "opex": 50,
+        "capex": 50,
+        "volume": 50
+      },
+      "eligibleNotAligned": {
+        "opex": 50,
+        "capex": 50,
+        "volume": 50
+      }
+    },
+    "safeguard": {
+      "imported": 1,
+      "verified": 1,
+      "questions": [
+        {
+          "id": "eyJpdiI6InlrYVFJaU1lT25ONFc1YTZjbE9qM0E9PSIsInZhbHVlIjoiSy9zdVF1Um16WGI3THlPY1A3aDF4Zz09IiwibWFjIjoiY2ZhOTAxNjNhMDZmYjc1MmNjNTIwNzA0YTg5MmI1NWZlNzcxNDZhNDhiNWFhODFmYzhjOGQ2YTMxZmI4OTM5ZSIsInRhZyI6IiJ9",
+          "text": "A entidade (ou membros dos seus órgãos sociais em funções)  foi condenada pela violação de normas legais relacionadas com a corrupção? ",
+          "links": [
+            {
+              "url": "https://dre.pt/dre/legislacao-consolidada/decreto-lei/1995-34437675",
+              "text": "Código Penal"
+            },
+            {
+              "url": "https://dre.pt/dre/legislacao-consolidada/decreto-lei/1995-34437675",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            },
+            {
+              "text": "Não. ",
+              "action": 2,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            }
+          ],
+          "enabled": 1,
+          "answered": false,
+          "text_help": "Importam, em especial, condenações pela prática de crime de corrupção, branqueamento de capitais, peculato, abuso de autoridade\n\nOs membros de órgãos sociais em funções em causa podem desempenhar funções na entidade principal, mas também nas subsidiárias",
+          "answered_value": null,
+          "id_external": "59ad2afb74d242f7bcf5cdaf9b1264f9"
+        },
+        {
+          "id": "eyJpdiI6InhUcmUvZ3M3NS82WlJqQWdTMGQ5Wmc9PSIsInZhbHVlIjoiRU5wVGd0cmtIUVkyQ2o0czNwYUNtdz09IiwibWFjIjoiMGFmOTg3OTg3NmIzOTFhNDI3YjY3MjUwYTQyNmQ2NDllM2Y1MWEwOWZkNjZlMjAwNmM2ZDNjZDAzMGUzMmY0NCIsInRhZyI6IiJ9",
+          "text": "A entidade (ou membros dos seus órgãos sociais em funções)  já foi condenada pela violação de normas legais referentes ao direito da concorrência?",
+          "links": [
+            {
+              "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1705&tabela=leis",
+              "text": "Regime Jurídico da Concorrência"
+            },
+            {
+              "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1705&tabela=leis",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            },
+            {
+              "text": "Não. ",
+              "action": 3,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Caso a entidade opere em Portugal relevam as condenações pela prática de contraordenações previstas no Regime Jurídico da Concorrência (Lei n.º 19/2012)\n\nOs membros de órgãos sociais em funções em causa podem desempenhar funções na entidade principal, mas também nas subsidiárias",
+          "answered_value": null,
+          "id_external": "d9fc596440c8213f010027a0a93ef374"
+        },
+        {
+          "id": "eyJpdiI6IldDUnE4SkF5dFdTOFFYdHBRVkVsSmc9PSIsInZhbHVlIjoiT2grdTZZVHd3VS9COG5zb3o2N3VoQT09IiwibWFjIjoiZjgzNDFiYjk2NWE2N2JlNjYyODI2YmE1MDEyNzFiMTY1NDU5OTZkNWVkZGY0YjYyOGRmMzU4OWU1NDAwZjVhNSIsInRhZyI6IiJ9",
+          "text": "A entidade (ou membros dos seus órgãos sociais em funções) já foi condenada pela violação de Direitos Humanos?",
+          "links": [
+            {
+              "url": "https://e4k4c4x9.rocketcdn.me/pt/wp-content/uploads/sites/9/2019/07/Declara%C3%A7%C3%A3o-Universal-dos-Direitos-Humanos.pdf",
+              "text": "Declaração Universal dos Direitos Humanos"
+            },
+            {
+              "url": "https://www.cne.pt/sites/default/files/dl/2_pacto_direitos_civis_politicos.pdf",
+              "text": "Pacto Internacional sobre Direitos Civis e Políticos"
+            },
+            {
+              "url": "https://gddc.ministeriopublico.pt/sites/default/files/documentos/instrumentos/pacto_internacional_sobre_os_direitos_economicos.pdf",
+              "text": "Pacto Internacional sobre Direitos Económicos, Sociais e Culturais"
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            },
+            {
+              "text": "Não. ",
+              "action": 4,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Como referência, podem ser tidos em conta os Direitos Humanos previstos na Carta Internacional de Direitos Humanos (Declaração Universal dos Direitos Humanos, Pacto Internacional sobre Direitos Civis e Políticos e Pacto Internacional sobre Direitos Económicos, Sociais e Culturais). Adicionalmente, dependendo da gravidade, devem ser tidas também em conta as condenações por violação dos Direitos dos Consumidores.\n\nSão relevantes quaisquer condenações, independentemente da entidade em causa (seja tribunal nacional, internacional, centro de arbitragem ou organizações internacionais não-jurisdicionais, como a ONU, a OCDE ou até ONGs), desde que tenha sido posta em causa a responsabilidade direta ou indireta da empresa relativamente a violações dos Direitos Humanos. \n\nOs membros de órgãos sociais em funções em causa podem desempenhar funções na entidade principal, mas também nas subsidiárias",
+          "answered_value": null,
+          "id_external": "2cdfdec7b4f6d71de7f800c19fdc7283"
+        },
+        {
+          "id": "eyJpdiI6Ilk4UVhwYlJTUCtRdTVQTElNWVZvdGc9PSIsInZhbHVlIjoieGVzQVJIVEZPSDBWLzA0MlJ1aEJqZz09IiwibWFjIjoiOTc0ZGMzMzU2NDY0NGNjZjU1N2JlODQ3YjE3YjExODUxZDA0YThkMDg1NzI5ZmUzNDFiNWMzYjc0YTg3MmMzOSIsInRhZyI6IiJ9",
+          "text": "A entidade já foi condenada pela violação de Direitos Laborais?",
+          "links": [
+            {
+              "url": "https://dre.pt/dre/legislacao-consolidada/lei/2009-34546475",
+              "text": "Código do Trabalho"
+            },
+            {
+              "url": "https://dre.pt/dre/legislacao-consolidada/lei/2009-34546475",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim",
+              "action": 4.1,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não. ",
+              "action": 5,
+              "selected": false,
+              "action_text": "Continuação para a pergunta 5"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "São relevantes quaisquer condenações, independentemente da entidade em causa (seja tribunal nacional, internacional, centro de arbitragem ou organizações internacionais não-jurisdicionais, como a ONU, a OCDE ou até ONGs), desde que tenha sido posta em causa a responsabilidade direta ou indireta da empresa relativamente a violações da legislação laboral pela Empresa e/ou pelos prestadores de serviços ou pela gestão de topo dos mesmos e eventuais litígios laborais em tribunal. Nomeadamente, informação sobre quaisquer procedimentos pendentes e/ou administrativos, como os levantados pela Autoridade para as Condições de Trabalho (ACT), Direcção-Geral do Emprego e das Relações Laborais (DGERT), Comissão para a Igualdade no Trabalho e no Emprego (CITE) e Segurança Social ou entidades correspondentes e equivalentes.\n\n",
+          "answered_value": null,
+          "id_external": "26a2e2c139d1dd379e86b6a12ce91e04"
+        },
+        {
+          "id": "eyJpdiI6InFJb2UzREFuVWg5THpZM2hPVGtobEE9PSIsInZhbHVlIjoiSFI0aDRoQ29pN0ljUjBTOHM4OVlWQT09IiwibWFjIjoiMzcwM2NmYWFiMmVjNDUxOTQ5ZmJhNDVmYzE4YWFmMmJkNDIxZDYxODQ0NTA2NTlkYjVkYWEwMTUwNmIwNjZjMCIsInRhZyI6IiJ9",
+          "text": "A(s) condenação(ões) incidem sobre alguma das situações especialmente protegidas nas oito convenções principais da Organização Internacional de Trabalho?",
+          "links": [
+            {
+              "url": "https://www.ilo.org/lisbon/visita-guiada/WCMS_650779/lang--pt/index.htm",
+              "text": "8 Convenções Principais da OIT"
+            },
+            {
+              "url": "https://www.ilo.org/lisbon/visita-guiada/WCMS_650779/lang--pt/index.htm",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim.",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos. Passagem para a pergunta 5"
+            },
+            {
+              "text": "Não. ",
+              "action": 4.2,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "As oito convenções principais da OIT incidem em matérias de trabalho forçado, liberdade sindical e proteção do direito sindical, direito de organização e de negociação coletiva, abolição do trabalho forçado, discriminação (no emprego e no acesso à profissão), idade mínima de admissão ao emprego e sobre as piores formas de trabalho das crianças",
+          "answered_value": null,
+          "id_external": "bb68fe52283910b083bd111a1f5489b6"
+        },
+        {
+          "id": "eyJpdiI6IjEwOSs3c3VhWmtNMzEyanJweEVXU0E9PSIsInZhbHVlIjoiUWJzUjhtUjRvT0RxV0tmV29OSW5BQT09IiwibWFjIjoiMThkMWY2YWE0MDAxMTRiMTE4MzMzMmI4NjQyMzBlZjc3ZTVlOTRjZTdkYTVjNmZkOGQ5Y2FmMjc4NWNhY2JmOCIsInRhZyI6IiJ9",
+          "text": "A(s) condenação(ões) correspondem a práticas reiteradas da entidade com mais do que uma condenação ou decorrem de ações coletivas onde existam vários lesados?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim.",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos. Passagem para a pergunta 5"
+            },
+            {
+              "text": "Não. ",
+              "action": 4.3,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "",
+          "answered_value": null,
+          "id_external": "94d869a8ec06e06c833a3856edfdca22"
+        },
+        {
+          "id": "eyJpdiI6IkpZRkZ6OWhFeVc5dmFNYUhqNXRXWnc9PSIsInZhbHVlIjoiOENTaU4vSjh4TlB2a21pZ3FWUlNiQT09IiwibWFjIjoiOTNkZGYzZDg4OGJjNzQzNTQyZDNmODUwNzc5YzU2OTRjNDQwMWQyNWY0ZjVjNzM1MDMwYTA2NDg0M2QwMGYwZiIsInRhZyI6IiJ9",
+          "text": "Foram implementadas as medidas necessárias para a reparação e correção das violações identificadas pela condenação?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim.",
+              "action": 5,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não. ",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos. Passagem para a pergunta 5"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Estas medidas devem ter como objetivo evitar a repetição da situação em causa",
+          "answered_value": null,
+          "id_external": "555881811af8e6ccc6a932ceff37c3a0"
+        },
+        {
+          "id": "eyJpdiI6IitGK0s3TzF2MVhLT1pzSlNsOVBPV1E9PSIsInZhbHVlIjoicDIxRC94SXNIbURIUFBZNzNGMTRNdz09IiwibWFjIjoiZDhhM2RiN2U0MzVjNTMxNzJlNzYwMzExZGE0MTQ1NThiMTc3MTFhODE0YjIyMzJmMWEyMzhmNWI5ZjEwODg0ZCIsInRhZyI6IiJ9",
+          "text": "A entidade já foi condenada pela violação de normas de Direito Fiscal ou Tributário?",
+          "links": [
+            {
+              "url": "https://dre.pt/dre/legislacao-consolidada/lei/2001-34474475-47663875",
+              "text": "Regime Geral das Infrações Tributárias"
+            },
+            {
+              "url": "https://dre.pt/dre/legislacao-consolidada/lei/2001-34474475-47663875",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim.",
+              "action": 5.1,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não. ",
+              "action": 6,
+              "selected": false,
+              "action_text": "Continuação para a pergunta 6"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Caso a entidade opere em Portugal relevam as condenações pela prática de crimes e de contraordenações previstos no Regime Geral das Infrações Tributárias (Lei 15/2001)",
+          "answered_value": null,
+          "id_external": "89d59d5347d0dae81e1328d2633ad156"
+        },
+        {
+          "id": "eyJpdiI6Inp3RVEzWmhvbHEzZFJ4VEpaZVdMY0E9PSIsInZhbHVlIjoiN01OeTBwZGVrUlFxQjhYZmdLTkdxdz09IiwibWFjIjoiMjQ0YmIxZTg2MzJmYjhjOTAzZTExZjNiNGM4YzVhNzAxYmE4YTYyNTdlMjBjZWEyY2E2MTQ2ODc3MTQ1ZDQ1MyIsInRhZyI6IiJ9",
+          "text": "A(s) condenação(ões) correspondem a práticas reiteradas da entidade com mais do que uma condenação?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim.",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos. Passagem para a pergunta 6"
+            },
+            {
+              "text": "Não. ",
+              "action": 5.2,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "",
+          "answered_value": null,
+          "id_external": "2c743f7948ce5163c7cd496a859580ec"
+        },
+        {
+          "id": "eyJpdiI6ImNWam5wV290MzdXMFhWVVFTQ2ZQZnc9PSIsInZhbHVlIjoiWHZqN2hRTU81d3MwVUJxWFQzMElIQT09IiwibWFjIjoiOTc0NzdhMDM3ZDAwYjg5YjhjYjQzOWVhOWJjZTE4Zjg0NmY0ZDIzYWQ3OTEzMDc2ZjEyY2FhNGQ3ZDdlY2I3YSIsInRhZyI6IiJ9",
+          "text": "A(s) condenação(ões) correspondem a crimes?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim.",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos. Passagem para a pergunta 6"
+            },
+            {
+              "text": "Não. ",
+              "action": 5.3,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "",
+          "answered_value": null,
+          "id_external": "cedeaabd8974e39984a436e3f3aaffe8"
+        },
+        {
+          "id": "eyJpdiI6ImUxN0Z2Nk10Vy9NWklBZFJrS0pPdmc9PSIsInZhbHVlIjoiS3NOVUZjSmY0VVlzd2w0MFJmK0t4Zz09IiwibWFjIjoiNzQyMjdlNDQ4YjAwOWZkYzE1NDRiZTQ1ZjM0Y2Q3MjJiZjg0NTNlZTA3ODFjYzNjNTI1ZjEyOTQyMjI5ODkwMiIsInRhZyI6IiJ9",
+          "text": "Foram implementadas as medidas necessárias para a reparação e correção das violações identificadas pela condenação?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim.",
+              "action": 6,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não. ",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos. Passagem para a pergunta 6"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Estas medidas devem ter como objetivo evitar a repetição da situação em causa",
+          "answered_value": null,
+          "id_external": "d00715a6e0c24ede2da795e982a38131"
+        },
+        {
+          "id": "eyJpdiI6IlR1aWxKZ2hBc3JXOEpYN25IOTBXenc9PSIsInZhbHVlIjoieVk5RFhGMHZQTS92RTAwNnNJTExJUT09IiwibWFjIjoiNTU3Njg3YjE4ZWY4NTNmMmJmM2QwMGI2YmUxZTViNmQ4NTYwNzgzOGYwNmFiYmJjY2E2ZmExYTVmZTZhMTdkZSIsInRhZyI6IiJ9",
+          "text": "A entidade tem exposição a armas controversas?",
+          "links": [
+            {
+              "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/PDF/?uri=CELEX:32019R2088",
+              "text": "Regulamento (UE) 2019/2088"
+            },
+            {
+              "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/PDF/?uri=CELEX:32022R1288",
+              "text": "Critérios técnicos de regulamentação do conteúdo e apresentação de informações relacionadas com o princípio de não prejudicar significativamente"
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim.",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            },
+            {
+              "text": "Não. ",
+              "action": 7,
+              "selected": false,
+              "action_text": "NOTA OPERATIVA:<br>Continuação do Questionário de acordo com o tipo de entidade em causa. <br>No caso de PMEs deve ser avaliada a conformidade com as Salvaguardas Mínimas através do primeiro Questionário"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "De acordo com os critérios técnicos do Regulamento (EU) 2019/2088 relativo à divulgação de informações relacionadas com a sustentabilidade no setor dos serviços financeiros, são consideradas armas controversas as minas antipessoais, munições de fragmentação, armas químicas e armas biológicas. Esta exposição deve ser aferida tendo em conta a cadeia de valor da entidade",
+          "answered_value": null,
+          "id_external": "9647a58e71433c3551f4839e25e91e89"
+        },
+        {
+          "id": "eyJpdiI6IjVmYVlxWHFqWnZURTdpV0xqK2p4WFE9PSIsInZhbHVlIjoicytIa1pNNXYyS2YrT2M2UkZjRnRtUT09IiwibWFjIjoiYjA5ZThkN2I1MDA2YmQ1MjUyMzgxMzE3NzE5ZTlkNzYzM2Y3ZTFkNGZkMDc2NGEzMjYxZTJjYjc2OWQxMzdhMyIsInRhZyI6IiJ9",
+          "text": "A entidade dispõe de um compromisso de respeito pelos Direitos Humanos nas suas atividades?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim",
+              "action": 8,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Deverá existir, por exemplo, um compromisso em empregar os maiores esforços para garantir que as atividades e operações das entidade não causam impactos nocivos ou significativos nos Direitos Humanos das pessoas com que a entidade se relaciona, em especial os dos seus colaboradores.\n\nEste compromisso deve ainda incluir uma referência às expetativas em matéria de Direitos Humanos aplicáveis aos colaboradores da entidade e partes relacionadas relevantes.",
+          "answered_value": null,
+          "id_external": "a7e19d7596f81131fb2092754a5f45d9"
+        },
+        {
+          "id": "eyJpdiI6IjZjb3NOUFVIUms4MkIyY0JNeHVkbFE9PSIsInZhbHVlIjoiaUp0eWwvV3ExVWpIdGM0KzZGeGtQQT09IiwibWFjIjoiMTUwNGYxYWEwNjFlOGViMDdiZTAwZjg0NDMzZDM4MTcyYjRmYWYxMTQ3MmI5NjliMDk0OTI1ZmM4YTQ3ZDI0OCIsInRhZyI6IiJ9",
+          "text": "Existem procedimentos que visam monitorizar o respeito pelos Direitos Humanos?",
+          "links": [
+            {
+              "url": "https://e4k4c4x9.rocketcdn.me/pt/wp-content/uploads/sites/9/2019/07/Declara%C3%A7%C3%A3o-Universal-dos-Direitos-Humanos.pdf",
+              "text": "Declaração Universal dos Direitos Humanos"
+            },
+            {
+              "url": "https://www.cne.pt/sites/default/files/dl/2_pacto_direitos_civis_politicos.pdf",
+              "text": "Pacto Internacional sobre Direitos Civis e Políticos"
+            },
+            {
+              "url": "https://gddc.ministeriopublico.pt/sites/default/files/documentos/instrumentos/pacto_internacional_sobre_os_direitos_economicos.pdf",
+              "text": "Pacto Internacional sobre Direitos Económicos, Sociais e Culturais"
+            },
+            {
+              "url": "https://www.ilo.org/lisbon/visita-guiada/WCMS_650779/lang--pt/index.htm",
+              "text": "8 Convenções Principais da OIT "
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim",
+              "action": 9,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não ",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não cumpre. Continua questionário para efeitos informativos"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Como referência, podem ser tidos em conta os Direitos Humanos previstos na Carta Internacional de Direitos Humanos (Declaração Universal dos Direitos Humanos, Pacto Internacional sobre Direitos Civis e Políticos e Pacto Internacional sobre Direitos Económicos, Sociais e Culturais), bem como os Direitos Laborais fundamentais previstos nas oito convenções principais da Organização Internacional do Trabalho. \n\nAs oito convenções principais da OIT incidem em matérias de trabalho forçado, liberdade sindical e proteção do direito sinidical, direito de organização e de negociação coletiva, abolição do trabalho forçado, discriminação (no emprego e no acesso à profissão), idade mínima de admissão ao emprego e sobre as piores formas de trabalho das crianças.",
+          "answered_value": null,
+          "id_external": "86ac137c9468bb88484896662c9f45a3"
+        },
+        {
+          "id": "eyJpdiI6IkI1RHQ3eit0aHpFaitYUUJCa2tlYnc9PSIsInZhbHVlIjoiZGpjSDVMenh1RXhVNDRHcU1hclhhQT09IiwibWFjIjoiYzNiNmFiYWNkYzRmZmE3MjA5ODcwY2Q1MTM4NTVmYWQ5NDgzZjg1NzBkYjY0ZGU4MjU3YTAzZjAyOTFhMDVhYSIsInRhZyI6IiJ9",
+          "text": "O compromisso em matérias de Direitos Humanos e os procedimentos de monitorização encontram-se plasmados em documentos escritos?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim",
+              "action": 10,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Deverá existir, por exemplo, uma Política de Direitos Humanos, uma Política de Due Diligence de Direitos Humanos, e/ou  compromissos gerais e públicos da Empresa em matéria de Direitos Humanos. A empresa poderá não ter aprovado documentos próprios mas ter optado por integrar as questões de Direitos Humanos noutros documentos pré-existentes (por exemplo, Código de Ética, Código de Conduta, Código de Fornecedores, Código de Compras ou outros documentos corporativos similares).\n\nEstes documentos devem ser elaborados em colaboração com pessoas especializadas nesta matéria (internas, ou externas à entidade)",
+          "answered_value": null,
+          "id_external": "177ca021649fdd2e34a00d97ccdea3f3"
+        },
+        {
+          "id": "eyJpdiI6IjEvVnloeGVkczErejJwTVVzckhWaUE9PSIsInZhbHVlIjoia3NtOHpDNjAvR3hQMEZKTStsSUN1UT09IiwibWFjIjoiYTQ1NjZiMzVmZWRmYTZhMzNjNTM2YWJlNjVhOWRkNjI0OWI4NGIzNTZmY2Y4MjU2YTg2NzExODdkYzQ1NGYzNSIsInRhZyI6IiJ9",
+          "text": "Os procedimentos da entidade cobrem todas as áreas relevantes no seu âmbito e da sua cadeia de valor?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim",
+              "action": 11,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "A relevância das áreas deve ser avaliada face às circunstâncias da atividade de cada organização. Segue-se uma exemplificação de áreas e direitos que podem ser relevantes:\n- Direitos dos povos de dispor livremente dos recursos naturais, de uma terra e de não serem privados de meios de subsistência;\n- Direito à vida e à segurança;\n- Proibição da tortura e dos tratamentos cruéis, desumanos ou degradantes\n- Direito à liberdade;\n- Proibição de intromissão arbitrária ou ilícita na vida privada, na família, no domicílio ou na correspondência de uma pessoa e ataques à sua reputação;\n- Proibição de intromissão na liberdade de pensamento, de consciência e de religião;\n- Direito de gozar de condições de trabalho justas e favoráveis, incluindo um salário equitativo, condições de trabalho dignas, seguras e higiénicas e limitação razoável de horário de trabalho;\n- Proibição de restringir o acesso dos trabalhadores a uma habitação adequada, se a mão de obra estiver albergada em alojamentos disponibilizados pela empresa, e de restringir o acesso dos trabalhadores a alimentos, vestuário, água e saneamento adequados no local de trabalho;\n- Direito da criança a que o seu interesse superior seja tido em consideração prioritariamente em todas as decisões e ações que afetem as crianças;\n- Direito da criança a desenvolver todas as suas potencialidades;\n- Direto da criança a gozar do melhor estado de saúde possível;\n- Direito da criança à segurança social a um nível de vida suficiente;\n- Direito da criança à educação;\n- Direito da criança a ser protegida contra todas as formas de exploração e de violência sexuais, e a ser protegida contra o rapto, a venda ou a deslocação ilegal para outro local, dentro ou fora do seu país, para fins de exploração;\n- Proibição de emprego de uma criança com idade inferior à idade de conclusão da escolaridade obrigatória e, em qualquer caso, não inferior a 15 anos (exceto se a lei do local de trabalho o previr);\n- Proibição do trabalho infantil; \n- Proibição do trabalho forçado (nomeadamente, todo o trabalho ou serviço exigido a uma pessoa sob ameaça de sanção e para o qual a referida pessoa não se tenha oferecido voluntariamente, por exemplo, como resultado de servidão por dívidas ou do tráfico de seres humanos);\n- Proibição de todas as formas de escravatura, práticas análogas à escravatura, servidão ou outras formas de domínio ou opressão no local de trabalho (como a exploração económica, sexual ou a extrema humilhação);\n- Proibição do tráfico de pessoas;\n- Direito à liberdade de associação, reunião, direito de organização e de negociação coletiva;\n- Proibição de tratamento desigual no emprego (nomeadamente, o pagamento de uma remuneração desigual por trabalho de igual valor);\n- Proibição de retenção de remuneração que proporcione uma existência decente;\n- Proibição de causar degradação ambiental mensurável (como alterações nocivas ao solo, poluição da água ou do ar, emissões nocivas ou consumo excessivo de água ou outro impacto nos recursos naturais que (i) prejudique as bases naturais de conservação e produção de alimentos (ii) negue o acesso de uma pessoa a água potável segura e limpa (iii) dificulte o acesso de uma pessoa às instalações sanitárias ou as destrua (iv) prejudique a saúde, a segurança, a utilização normal de bens ou terrenos ou o exercício normal da atividade económica de uma pessoa, ou (v) afete a integridade ecológica, como a desflorestação);\n- Proibição de despejo ou aproveitamento ilegal de terras, florestas e águas aquando da aquisição, desenvolvimento ou utilização de terras, florestas e águas (incluindo através da desflorestação, cuja utilização assegura um nível de vida suficiente de uma pessoa);\n- Direitos dos povos indígenas às terras, territórios e recursos que possuem e ocupem tradicionalmente, ou que tenham de outra forma utilizado ou adquirido;",
+          "answered_value": null,
+          "id_external": "0f06d10c59c1d077e3b47961b52376cf"
+        },
+        {
+          "id": "eyJpdiI6IjNpeWhBTTVlWnBLbjB5ZlpHbmtwOXc9PSIsInZhbHVlIjoidFVpaUdhc25BbVhzV3liNU92QnRaZz09IiwibWFjIjoiNzY5ZTkwZDVhMWNiYmYyY2Q1OTQyNzUxMmRkMjBiNTg5NGE3MWM4MDBlMjZjMmNiNTQxMGUxNjc2NTU4NDZiMCIsInRhZyI6IiJ9",
+          "text": "Os documentos que versam sobre o respeito e procedimentos de diligência devida em matérias de Direitos Humanos, foram publicamente comunicados (interna e externamente)?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim ",
+              "action": 12,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "",
+          "answered_value": null,
+          "id_external": "f29cc53093363109f3752af260f26f77"
+        },
+        {
+          "id": "eyJpdiI6IlpqUzh4blVWd1ZXU21qOFFSZjJRUEE9PSIsInZhbHVlIjoiL0pBamZKK2R6QXVZSGpvY3pRQ0l6Zz09IiwibWFjIjoiNWJkYTk4NDk3Y2ZjMWMyZDFlOWQ0ODNiYmZhN2I5NjRlMTEwNjQzMGVlMGJhNzYyZjQ4MzUwNDE0NTg4ZjUxMCIsInRhZyI6IiJ9",
+          "text": "A entidade dinamiza formação e/ou qualquer forma de consciencialização dos colaboradores relativamente ao respeito pelos Direitos Humanos e Laborais no contexto empresarial?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim.",
+              "action": 13,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não. ",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Por exemplo, formação especializada sobre o respeito pelos Direitos Humanos no contexto empresarial às áreas-chave da empresa nesta matéria e/ou à liderança, boletins informativos sobre os direitos dos trabalhadores, nomeadamente, em matéria de liberdade associativa ou segurança e saúde no trabalho.",
+          "answered_value": null,
+          "id_external": "8ba5c525f3f6b15311f3aa6a9b199603"
+        },
+        {
+          "id": "eyJpdiI6ImxTZlNUY0NqQzdtdDM3eGUwdWIyYXc9PSIsInZhbHVlIjoidG9xaXhWZlJ1S1pyU0RoU3NZcUxrQT09IiwibWFjIjoiYTAwNGM1ZWMwNWFlMDQzMzAxNGM1YjhlNjhiM2ZiMGQ0NjAxNmI3NmQ3NjU1NjM2ZjY4MDBmMjFmMTgzMTdmMSIsInRhZyI6IiJ9",
+          "text": "Todas as estruturas da entidade, inclusivamente as que estão sediadas noutros países, cumprem com os mesmos procedimentos de garantia dos Direitos Humanos?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim. ",
+              "action": 14,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não. ",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Independentemente do tipo de relação jurídica ou comercial (por exemplo, sucursal, filial, franchising, etc.)",
+          "answered_value": null,
+          "id_external": "349d32aef253f9d70e372d4ada61c7ac"
+        },
+        {
+          "id": "eyJpdiI6Ind5VUtscXJ2TGlraytVVmVRUnV1T0E9PSIsInZhbHVlIjoiN2lETk9tUG5EQzVFRlhmdHNlWU9SZz09IiwibWFjIjoiZTc4MzNhMmFiMGNlM2VhNjBjNjlmYzdkNDU5OGViZGJiODNlZDk2ZjA1YjY0YzVhMzczMGY2MWQ4NjQxM2NiYSIsInRhZyI6IiJ9",
+          "text": "Os procedimentos de monitorização incidem sobre as partes relacionadas com a entidade?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim ",
+              "action": 15,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não. ",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Devem ser consideradam partes relacionadas com a entidade todos os elementos da sua cadeia de valoro, como os seus fornecedores e clientes",
+          "answered_value": null,
+          "id_external": "2a8a3c29ebd3471951beac5741ec0d6e"
+        },
+        {
+          "id": "eyJpdiI6ImhvWTdHSnA3SGdsVjhxQ3ZTR2dWYkE9PSIsInZhbHVlIjoiY1hmM2pycU8rZUd4ZURKQURFejQ5UT09IiwibWFjIjoiNjM4YjAwMjdjYjI0ZDhkMWYxNDA2MmVhNjE2Zjc2Y2I0OThhYjcxMTEwOTQwZGVmNDlkMjczOTVkMmU2ZGIyNyIsInRhZyI6IiJ9",
+          "text": "Os procedimentos implementados cumprem todas as características relevantes?",
+          "links": [
+            {
+              "url": "",
+              "text": "Todos os procedimentos implementados devem ser legítimos, acessíveis, previsíveis, equitativos, transparentes e compatíveis com os Direitos Humanos. "
+            },
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim, são legítimos, acessíveis, previsíveis, equitativos, transparentes e compatíveis com os Direitos Humanos.",
+              "action": 16,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Cumprem algumas características relevantes.",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            },
+            {
+              "text": "Não cumprem todas as características relevantes.",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Procedimentos legítimos - Suscitam a confiança dos grupos interessados e abordam adequadamente os processos em causa.\n\nProcedimentos acessíveis - Conhecidos por todos os grupos interessados, sendo prestada a devida assistência às pessoas que possam ter dificuldades em aceder aos procedimentos\n\nProcedimentos previsíveis - São claros e conhecidos, têm prazos para cada etapa do processo, que são comunicadas, bem como os resultados possíveis e quanto aos meios de monitorização do processo \n\nProcedimentos equitativos - Asseguram em condições de igualdade, de informação e respeitando o acesso aos processos\n\nProcedimentos transparentes - Mantêm informadas as partes interessadas sobre a evolução do processo\n\nProcedimentos compatíveis com os Direitos Humanos - Asseguram que o resultado do processo cumpre com os Direitos Humanos ",
+          "answered_value": null,
+          "id_external": "9e1babbfa87c4417e64687f50830c4bd"
+        },
+        {
+          "id": "eyJpdiI6IjVxbjdqYzBFN01kaTVXNHlZaWUyOEE9PSIsInZhbHVlIjoid0EzcFJ5cWEyVnlIQndJTk90cjR0UT09IiwibWFjIjoiODc5YzBkZmU3NTUxN2E1MjJkM2RmNjc4YjJiMWE0NzViZTI4NzhhMjFlMGY0MjA1ZDVjNmRmMzg0OTRjMmRlYSIsInRhZyI6IiJ9",
+          "text": "Os procedimentos implementados incluem todos os elementos relevantes?",
+          "links": [
+            {
+              "url": "",
+              "text": "As etapas que os procedimentos implementados devem cumprir são: \n- Etapa/processos de identificação e avaliação de impactos nocivos nos Direitos Humanos e Laborais, potenciais ou reais; \n- Etapa/processos de mitigação de riscos com base nos resultados da identificação e avaliação de impactos; \n- Etapa/processos de acompanhamento efetivo da implementação dos resultados do processo de diligência devida; \n- Nos casos de identificação de situações de violação de Direitos Humanos inclui a etapa/processos de averiguação interna do caso e comunicação aos órgãos competentes,de implementação de um plano de remediação da situação e de comunicação das soluções desenvolvidas"
+            },
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim, inclui a Etapa/processos de identificação e avaliação de impactos nocivos nos Direitos Humanos e Laborais, potenciais ou reais; Etapa/processos de mitigação de riscos com base nos resultados da identificação e avaliação de impactos; Etapa/processos de acompanhamento efetivo da implementação dos resultados do processo de diligência devida e, em casos de identificação de situações de violação de Direitos Humanos inclui a etapa/processos de averiguação interna do caso e comunicação aos órgãos competentes,de implementação de um plano de remediação da situação e de comunicação das soluções desenvolvidas",
+              "action": 17,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Cumpre com alguns dos elementos.",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            },
+            {
+              "text": "Não cumpre com nenhum dos elementos.",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Identificação e avaliação - Esta análise de impactos deve ser desenvolvida com o envolvimento dos stakeholders recorrendo a pessoas especializadas nesta matéria (internas, ou externas à entidade). A análise de impactos varia de acordo com a entidade, riscos de Direitos Humanos e natureza e contexto das operações. A análise de impactos nocivos deve ter como base a escala, escopo e possibilidade de remediabilidade desses mesmos impactos\n\nMitigação de riscos - Esta etapa implica a implementação de medidas com o objetivo de evitar que os riscos de criação de impactos nocivos nos Direitos Humanos se materializem, correspondendo essencialmente, às medidas de prevenção consideradas necessárias. Por exemplo, em caso de identificação de uma relação comercial de fornecimento na qual foram identificados riscos de violações dos Direitos Humanos, a entidade deve levar a cabo processos de interrupção da relação comercial ou desenvolvimento de planos de prevenção e mitigação. Adicionalmente, a entidade deve alocar os recursos necessários para a mitigação dos riscos, ou violações detetados\n\nAcompanhamento efetivo - Este acompanhamento pode ser feito, por exemplo, através de mecanismos de auscultação dos stakeholders internos e externos sobre o desempenho da empresa relativamente ao respeito pelos Direitos Humanos. O acompanhamento deve ser contínuo, reconhecendo que os direitos humanos podem alterar ao longo do tempo e em função do contexto evolutivo do negócio\n\nCasos de identificação de situações de violação de Direitos Humanos -Em caso de contribuição efetiva para a violação dos Direitos Humanos e laborais, devem ser levados a cabo procedimentos para procurar reconstruir a situação na qual a pessoa ou a comunidade afetada se encontrariam se o impacto adverso não tivesse ocorrido – se possível - ou procurar compensar a pessoa ou a comunidade afetada pelos prejuízos sofridos. A comunicação das soluções desenvolvidas pode ser feita, por exemplo, através de publicações, relatórios ou comunicações externas e/ou internas.",
+          "answered_value": null,
+          "id_external": "545de8536f4deecbcba0a156964fc76d"
+        },
+        {
+          "id": "eyJpdiI6Ill1Wk9xM0pZajBMeGVuVnZqKys4N0E9PSIsInZhbHVlIjoieXR6bWFndVlDYnFFYzlMTXNrTnhLUT09IiwibWFjIjoiYTQzNzJjOTA5MzBiOTRlNWRmODM2OTNjNDIzYzg1OTEzY2JlYTliMzk2Y2Y5ZWViZmI0MjBkODU0MDhlNDAxOCIsInRhZyI6IiJ9",
+          "text": "Existe algum caso contra a entidade, iniciado pelo ponto de contacto Nacional da OCDE ou pelo Centro de Informação sobre Empresas e Direitos Humanos nos últimos dois anos?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim",
+              "action": 17.1,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não",
+              "action": 18,
+              "selected": false,
+              "action_text": "Continuação para a pergunta 18"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "",
+          "answered_value": null,
+          "id_external": "c805e6fa758b26359c81f913b9984de6"
+        },
+        {
+          "id": "eyJpdiI6IlRCcnMwNHdiMnR6ZEhKR1JhTTJBbmc9PSIsInZhbHVlIjoibGJqZTNmNkZ4SmVDT3c3YlBJR3h6Zz09IiwibWFjIjoiMzVmOWU2MjRiNmFlYzVjZmFhZGNjYTEyY2JjYTUxZjA2OGM5OTZjYzc0OTNmYWY2ZDJmYWE5YWQyODQyNjU0YSIsInRhZyI6IiJ9",
+          "text": "A entidade recusou-se a negociar com a parte que iniciou o procedimento, ou não prestou informação solicitada durante 3 meses?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos."
+            },
+            {
+              "text": "Não",
+              "action": 17.2,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "",
+          "answered_value": null,
+          "id_external": "d9df8fbab1b8869ec6e3112d04d0b15d"
+        },
+        {
+          "id": "eyJpdiI6IjlUOFQ1M1NUVHBnZVRKOHNaTnU4a0E9PSIsInZhbHVlIjoidW9pQmVzd2xKZzlCSXlkWGdOa3BxQT09IiwibWFjIjoiMDg3MzRlNjAxNTMzZjVhNWM0MTUyMDYzZjJiOTUwMjY3MTNlYWQ5OTg0YmQxNDk5NzQyZDhjZjI3YTBlOWE3YiIsInRhZyI6IiJ9",
+          "text": "A entidade foi considerada em incumprimento das guidelines da OCDE?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            },
+            {
+              "text": "Não",
+              "action": 18,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "",
+          "answered_value": null,
+          "id_external": "037e2ee15f05fb4392958073656376b7"
+        },
+        {
+          "id": "eyJpdiI6Im94ZUdWTGNHZjRkUDJkSmtDKys4c2c9PSIsInZhbHVlIjoib1RlcnNEZGV0Q3U4czFydnUrNStHQT09IiwibWFjIjoiYTA5ODQ3Y2Y4NzE3N2QyMjkwZjU1OWU4ZDczZWRjMWVmNDNhYTZlYzJkOTM4ZWRiODNkNGIwOTkwZTc4ZjYyZCIsInRhZyI6IiJ9",
+          "text": "A entidade dispõe de um compromisso, plasmado em documentos escritos, em matéria de prevenção da corrupção?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim",
+              "action": 19,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Deverá existir, por exemplo, uma Política Anti-Corrupção e Branqueamento de Capitais,  e/ou  compromissos gerais e públicos da Empresa em matéria de prevenção da corrupção. A empresa poderá não ter aprovado documentos próprios mas ter optado por integrar as questões de prevenção de corrupção noutros documentos pré-existentes (por exemplo, Código de Ética, Código de Conduta, Código de Fornecedores, Código de Compras ou outros documentos corporativos similares).",
+          "answered_value": null,
+          "id_external": "36261a9af83959dd0a2a32e00d1a2236"
+        },
+        {
+          "id": "eyJpdiI6IkxjV1NEaHBJWi9nY1J5ekZTTVhKN1E9PSIsInZhbHVlIjoiNTlFYUVpUCtkRmJveWZid1VyeStUUT09IiwibWFjIjoiMjM4ZWFlZDE1MzE1NDE5OGI0ZTM0ZmY1YmY5YTBhMTE4YWViZmI2YzBhOGJjNTQ4MzUyZDUwOTZkNTA1MWY0NSIsInRhZyI6IiJ9",
+          "text": "A entidade implementa procedimentos que tem como finalidade a prevenção da corrupção?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim",
+              "action": 20,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Estes procedimentos podem corresponder a políticas de escrutínio dos membros de órgãos sociais, e de outras pessoas em posição de poder, de generalização de procedimentos de know your client ou de escrutínio dos fornecedores.",
+          "answered_value": null,
+          "id_external": "ea82a47c97712203d7c023d0ce66ac63"
+        },
+        {
+          "id": "eyJpdiI6IlQ0bC95RTZWbm1wRTVXa24zYXd4MVE9PSIsInZhbHVlIjoiV3lzRXVNd0xHNlFOMkxRejREWmtFUT09IiwibWFjIjoiMjE0MWMwNjIyZWRhYjM0ZWZhZGM5NDE5MTNjMjM3MjllNTkxNjBmOGUxY2JjNzYwYTUzZjBkNjRiNzk0MTk5ZCIsInRhZyI6IiJ9",
+          "text": "A entidade dispõe de compromissos, plasmados em documentos escritos,  em matéria de gestão de riscos fiscais?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim",
+              "action": 21,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Deverá existir, por exemplo, uma Política Anti-Evasão Fiscal  e/ou  compromissos gerais e públicos da Empresa em matéria de fiscalidade responsável. A empresa poderá não ter aprovado documentos próprios mas ter optado por integrar as questões de prevenção de corrupção noutros documentos pré-existentes (por exemplo, Código de Ética, Código de Conduta, Código de Fornecedores, Código de Compras ou outros documentos corporativos similares).",
+          "answered_value": null,
+          "id_external": "5d6923bfa68287aadfb017c876dd8085"
+        },
+        {
+          "id": "eyJpdiI6ImoySnlZUGk1VldMOEJacTl5QnJlNnc9PSIsInZhbHVlIjoiRk1MNkg3QWIremtta1FsOVdOb3ErUT09IiwibWFjIjoiODk0MmZlMzFkZTljOWE2MjFmNTcxNTljNWY5MGIyY2JjNjg3NGZjNGMyY2NhZWIzNjZkZjQyMGNlYTdlZjQ2OSIsInRhZyI6IiJ9",
+          "text": "A entidade implementa procedimentos de governance em matéria fiscal, nomeadamente em matérias de compliance e supervisão?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim",
+              "action": 22,
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Estes procedimentos podem implicar a existência de equipas de supervisão em matérias fiscais, no escrutínio possível do cumprimento de obrigações tributárias por fornecedores e clientes ou no recurso a entidades externas para garantir o cumprimento do quadro regulatório fiscal aplicável.",
+          "answered_value": null,
+          "id_external": "173ff68b8a7ebb4f5e967da6bd3542c2"
+        },
+        {
+          "id": "eyJpdiI6Ik5JclRFV2J1UjFtcktXTW9DZWE4Vnc9PSIsInZhbHVlIjoiWWpRQTZyWlRkQjhtWCt1Q0h5bUZwdz09IiwibWFjIjoiNWZjMjcwNmM3MDYwOWNmZDBhOGVhMzIzMzE0YzMwNDFmNDJiNjc5YmFlOWVhYTM5OWRlNDljMTAwNjRiMTk1MCIsInRhZyI6IiJ9",
+          "text": "A entidade promove, entre os seus colaboradores, iniciativas que visam frisar a importância do cumprimento do quadro regulatório aplicável em matéria concorrencial?",
+          "links": [
+            {
+              "url": "",
+              "text": null
+            },
+            {
+              "url": "",
+              "text": null
+            }
+          ],
+          "answer": [
+            {
+              "text": "Sim",
+              "action": "Cumpre",
+              "selected": false,
+              "action_text": "Continuação do Questionário"
+            },
+            {
+              "text": "Não",
+              "action": "Não Cumpre",
+              "selected": false,
+              "action_text": "Atividade não é conforme às Salvaguardas Mínimas. O Questionário deve ser continuado para efeitos informativos"
+            }
+          ],
+          "enabled": false,
+          "answered": false,
+          "text_help": "Estas iniciativas podem corresponder a formações focadas na temática concorrencial ou à disponibilização, em locais comuns da entidade de informação sobre a matérias",
+          "answered_value": null,
+          "id_external": "8f4b0e321537bb2a7d4f896452b873f6"
+        }
+      ],
+      "percentage": 0,
+      "arrayPosition": 0
+    },
+    "completed": 0,
+    "completed_at": null,
+    "started_at": "2023-10-19 16:45:04",
+    "deleted_at": null,
+    "activities": [
+      {
+        "id": "eyJpdiI6IjJNaDRMY1RJbHhqU0tUb0RBcXkrMGc9PSIsInZhbHVlIjoiYWlmb3pNNnFpV3FvUDBtRW52ckgvZz09IiwibWFjIjoiZmY0NzkyZmVmOTlhMDBiZGIwOTNiOGY3NWZhYTkzMDY3ODY0MjNhYmE5MDUwN2I5ZDY0MzgzY2UxNzdkZjQ5NiIsInRhZyI6IiJ9",
+        "taxonomy_id": "eyJpdiI6IjliY2VkL3k3OTF1V2tERXc1dTFtTVE9PSIsInZhbHVlIjoiRmtLRnRIWm10Smt4dWVmS2dqWXc1dz09IiwibWFjIjoiOTc1NGE0MDdiMDE4Yzg2ZTQ4NjcxNTQ5MjYyMzU5N2I3MGE1ZTBiYjU3MGNlMmMyYzEzZWVjNGVhYThjNzU1OCIsInRhZyI6IiJ9",
+        "name": "Teste F",
+        "activity_resume": {
+          "opex": 50,
+          "capex": 50,
+          "volume": 50
+        },
+        "contribute": {
+          "data": [
+            {
+              "verified": 1,
+              "objective": "Mitigação das alterações climáticas",
+              "questions": [
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Contribui substancialmente para um dos objetivos",
+                  "question": {
+                    "id": "eyJpdiI6InlrYVFJaU1lT25ONFc1YTZjbE9qM0E9PSIsInZhbHVlIjoiSy9zdVF1Um16WGI3THlPY1A3aDF4Zz09IiwibWFjIjoiY2ZhOTAxNjNhMDZmYjc1MmNjNTIwNzA0YTg5MmI1NWZlNzcxNDZhNDhiNWFhODFmYzhjOGQ2YTMxZmI4OTM5ZSIsInRhZyI6IiJ9",
+                    "text": "A atividade consiste na produção de eletricidade a partir da tecnologia solar fotovoltaica?",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": "Alinhada",
+                        "selected": "Sim.",
+                        "action_text": "Fim dos critérios de avaliação da contribuição para a mitigação das alterações climáticas. Passagem para os critérios de NPS a adaptação às alterações climáticas"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": null,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 1,
+                    "answered": 1,
+                    "text_help": "",
+                    "answered_value": "Sim.",
+                    "id_external": "59ad2afb74d242f7bcf5cdaf9b1264f9"
+                  },
+                  "objective": "Mitigação das alterações climáticas",
+                  "activity_code": 4.1
+                }
+              ],
+              "percentage": 100,
+              "arrayPosition": 0
+            },
+            {
+              "verified": null,
+              "objective": "Adaptação às alterações climáticas",
+              "questions": [
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Contribui substancialmente para um dos objetivos",
+                  "question": {
+                    "id": "eyJpdiI6InlrYVFJaU1lT25ONFc1YTZjbE9qM0E9PSIsInZhbHVlIjoiSy9zdVF1Um16WGI3THlPY1A3aDF4Zz09IiwibWFjIjoiY2ZhOTAxNjNhMDZmYjc1MmNjNTIwNzA0YTg5MmI1NWZlNzcxNDZhNDhiNWFhODFmYzhjOGQ2YTMxZmI4OTM5ZSIsInRhZyI6IiJ9",
+                    "text": "Foram adotadas soluções físicas e não físicas («soluções de adaptação») que reduzem substancialmente os mais importantes riscos físicos associados ao clima?",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": 2,
+                        "selected": 0,
+                        "action_text": "Continuação do Questionário"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": 0,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 1,
+                    "answered": 0,
+                    "text_help": "As soluções físicas em causa devem resultar das conclusões de um estudo ou avaliação do risco climático e da vulnerabilidade dos principais riscos físicos associados ao clima com relevância para a atividade",
+                    "answered_value": null,
+                    "id_external": "59ad2afb74d242f7bcf5cdaf9b1264f9"
+                  },
+                  "objective": "Adaptação às alterações climáticas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Contribui substancialmente para um dos objetivos",
+                  "question": {
+                    "id": "eyJpdiI6InhUcmUvZ3M3NS82WlJqQWdTMGQ5Wmc9PSIsInZhbHVlIjoiRU5wVGd0cmtIUVkyQ2o0czNwYUNtdz09IiwibWFjIjoiMGFmOTg3OTg3NmIzOTFhNDI3YjY3MjUwYTQyNmQ2NDllM2Y1MWEwOWZkNjZlMjAwNmM2ZDNjZDAzMGUzMmY0NCIsInRhZyI6IiJ9",
+                    "text": "Foi realizado um estudo ou avaliação do risco climático e da vulnerabilidade dos principais riscos físicos associados ao clima com relevância para a atividade, de acordo com os requisitos e etapas constantes do Anexo II do Regulamento Delegado (UE) 2021/2139 e tendo em conta os riscos descritos no Anexo A?",
+                    "links": [
+                      {
+                        "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/PDF/?uri=CELEX:32021R2139&from=EN",
+                        "text": "Regulamento Delegado (UE) 2021/2139"
+                      },
+                      {
+                        "url": "https://www.ipcc.ch/reports/",
+                        "text": "Relatórios IPCC"
+                      }
+                    ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": 3,
+                        "selected": 0,
+                        "action_text": "Continuação do Questionário"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": 0,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 0,
+                    "answered": 0,
+                    "text_help": "Requisitos de preparação do estudo/avaliação do risco climático e de vulnerabilidade:<br>- Necessidade de existir uma verificação preliminar da atividade para identificação dos riscos físicos climáticos enumerados na secção II do Apêndice A que possam afetar o desempenho da atividade económica durante o seu período de vida esperado;<br>- Caso se identifiquem um ou mais riscos físicos associados ao clima enumerados na secção II do Apêndice A, deve ser realizada umaa avaliação da vulnerabilidade e dos riscos climáticos para determinar a importância dos riscos físicos associados ao clima para a atividade económica;<br>- Necessidade de avaliação das soluções de adaptação que possam reduzir os riscos físicos associados ao clima;<br><br>Atividades com expectativa de vida útil inferior a 10 anos - A avaliação de vulnerabilidade e dos riscos climáticos é realizada através de uma avaliação com base nas projeções climáticas à mais pequena escala adequada;<br><br>Restantes atividades - A avaliação de vulnerabilidade e dos riscos climáticos é realizada a com recurso a projeções climáticas de ponta e com a máxima resolução disponível para o conjunto existente de futuros cenários possíveis (estabelecidos pelo Painel Intergovernamental sobre as Alterações Climáticas(IPCC) para o período de vida esperado para a atividade .<br><br>Grandes Investimentos - Os cenários de projeções climáticas têm no mínimo de 10 a 30 anos.  <br><br>O estudo ou avaliação realizada deve ter por base:<br>- Os  conhecimentos científicos mais recentes para a determinação da vulnerabilidade e dos riscos e as metologias associadas, conforme relatórios do IPCC;<br>- Publicações científicas objeto de análise interpares recentes e em fonte aberta (nomeadamente seviços Copernicus)",
+                    "answered_value": null,
+                    "id_external": "d9fc596440c8213f010027a0a93ef374"
+                  },
+                  "objective": "Adaptação às alterações climáticas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Contribui substancialmente para um dos objetivos",
+                  "question": {
+                    "id": "eyJpdiI6IldDUnE4SkF5dFdTOFFYdHBRVkVsSmc9PSIsInZhbHVlIjoiT2grdTZZVHd3VS9COG5zb3o2N3VoQT09IiwibWFjIjoiZjgzNDFiYjk2NWE2N2JlNjYyODI2YmE1MDEyNzFiMTY1NDU5OTZkNWVkZGY0YjYyOGRmMzU4OWU1NDAwZjVhNSIsInRhZyI6IiJ9",
+                    "text": "As soluções de adaptação adotadas preenchem os seguintes critérios:<br>- Não afetar negativamente os esforços de adaptação nem o nível de resiliência aos riscos físicos associados ao clima de outras pessoas, da natureza, do património cultural, dos ativos e das outras atividades económicas;<br>- Promoção do recurso a soluções baseadas na natureza ou assentam, na medida do possível, em infraestruturas azuis ou verdes;<br>-  Coerência com as estratégias e os planos de adaptação elaborados a nível local, setorial, regional ou nacional;<br>- Monitorização e avaliação com base em indicadores predefinidos e aplicação de medidas corretivas em caso de incumprimento de metas;<br>- Satisfação de critérios técnicos de avaliação para o cumprimento do princípio NPS da atividade que as soluções físicas possam configurar;",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": "Alinhada",
+                        "selected": 0,
+                        "action_text": "Fim dos critérios de avaliação de contribuição para a adaptação às alterações climáticas. Passagem para os critérios de NPS a transição para uma economia circular"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": 0,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 0,
+                    "answered": 0,
+                    "text_help": "Soluções baseadas na natureza - soluções inspiradas na natureza e nela apoiadas, eficazes em termos de custos, que simultaneamente proporcionam benefícios ambientais, sociais e económicos e ajudam a reforçar a resiliência.Soluções que favorecem a biodiversidade e apoiam a prestação de um conjunto de serviços ecossistémicos.",
+                    "answered_value": null,
+                    "id_external": "2cdfdec7b4f6d71de7f800c19fdc7283"
+                  },
+                  "objective": "Adaptação às alterações climáticas",
+                  "activity_code": 4.1
+                }
+              ],
+              "percentage": 0,
+              "arrayPosition": 1
+            }
+          ],
+          "imported": 0,
+          "verified": 1,
+          "hasPercentage": 1
+        },
+        "dnsh": {
+          "data": [
+            {
+              "verified": 1,
+              "objective": "Adaptação às alterações climáticas",
+              "questions": [
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": "eyJpdiI6InlrYVFJaU1lT25ONFc1YTZjbE9qM0E9PSIsInZhbHVlIjoiSy9zdVF1Um16WGI3THlPY1A3aDF4Zz09IiwibWFjIjoiY2ZhOTAxNjNhMDZmYjc1MmNjNTIwNzA0YTg5MmI1NWZlNzcxNDZhNDhiNWFhODFmYzhjOGQ2YTMxZmI4OTM5ZSIsInRhZyI6IiJ9",
+                    "text": "Foi realizado um estudo ou avaliação do risco climático e da vulnerabilidade dos principais riscos físicos associados ao clima com relevância para a atividade, de acordo com os requisitos e etapas constantes no Apêndice A do Anexo I do Regulamento Delegado (UE) 2021/2139 da Comissão?",
+                    "links": [
+                      {
+                        "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/PDF/?uri=CELEX:32021R2139&from=EN",
+                        "text": "Regulamento Delegado (UE) 2021/2139"
+                      },
+                      {
+                        "url": "https://www.ipcc.ch/reports/",
+                        "text": "Relatórios IPCC"
+                      }
+                    ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": 2,
+                        "selected": "Sim.",
+                        "action_text": "Continuação do Questionário"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": null,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 1,
+                    "answered": 1,
+                    "text_help": "Requisitos de preparação do estudo/avaliação do risco climático e de vulnerabilidade:<br>- Necessidade de existir uma verificação preliminar da atividade para identificação dos riscos físicos climáticos enumerados na secção II do Apêndice A que possam afetar o desempenho da atividade económica durante o seu período de vida esperado;<br>- Caso se identifiquem um ou mais riscos físicos associados ao clima enumerados na secção II do Apêndice A, deve ser realizada umaa avaliação da vulnerabilidade e dos riscos climáticos para determinar a importância dos riscos físicos associados ao clima para a atividade económica;<br>- Necessidade de avaliação das soluções de adaptação que possam reduzir os riscos físicos associados ao clima;<br><br>Atividades com expectativa de vida útil inferior a 10 anos - A avaliação de vulnerabilidade e dos riscos climáticos é realizada através de uma avaliação com base nas projeções climáticas à mais pequena escala adequada;<br><br>Restantes atividades - A avaliação de vulnerabilidade e dos riscos climáticos é realizada a com recurso a projeções climáticas de ponta e com a máxima resolução disponível para o conjunto existente de futuros cenários possíveis (estabelecidos pelo Painel Intergovernamental sobre as Alterações Climáticas(IPCC) para o período de vida esperado para a atividade .<br><br>Grandes Investimentos - Os cenários de projeções climáticas têm no mínimo de 10 a 30 anos.  <br><br>O estudo ou avaliação realizada deve ter por base:<br>- Os  conhecimentos científicos mais recentes para a determinação da vulnerabilidade e dos riscos e as metologias associadas, conforme relatórios do IPCC;<br>- Publicações científicas objeto de análise interpares recentes e em fonte aberta (nomeadamente seviços Copernicus)",
+                    "answered_value": "Sim.",
+                    "id_external": "59ad2afb74d242f7bcf5cdaf9b1264f9"
+                  },
+                  "objective": "Adaptação às alterações climáticas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": "eyJpdiI6InhUcmUvZ3M3NS82WlJqQWdTMGQ5Wmc9PSIsInZhbHVlIjoiRU5wVGd0cmtIUVkyQ2o0czNwYUNtdz09IiwibWFjIjoiMGFmOTg3OTg3NmIzOTFhNDI3YjY3MjUwYTQyNmQ2NDllM2Y1MWEwOWZkNjZlMjAwNmM2ZDNjZDAzMGUzMmY0NCIsInRhZyI6IiJ9",
+                    "text": "A atividade é nova ou preexistente?",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Nova",
+                        "action": 4,
+                        "selected": "Nova",
+                        "action_text": "Continuação para a pergunta 4"
+                      },
+                      {
+                        "text": "Nova, mas utiliza ativos físicos preexistentes",
+                        "action": 3,
+                        "selected": null,
+                        "action_text": "Continuação do Questionário"
+                      },
+                      {
+                        "text": "Preexistente",
+                        "action": 3,
+                        "selected": null,
+                        "action_text": "Continuação do Questionário"
+                      },
+                      {
+                        "text": "Preexistente, mas utiliza ativos recém construídos",
+                        "action": 4,
+                        "selected": null,
+                        "action_text": "Continuação para a pergunta 4"
+                      }
+                    ],
+                    "enabled": 1,
+                    "answered": 1,
+                    "text_help": "",
+                    "answered_value": "Nova",
+                    "id_external": "d9fc596440c8213f010027a0a93ef374"
+                  },
+                  "objective": "Adaptação às alterações climáticas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": "eyJpdiI6IldDUnE4SkF5dFdTOFFYdHBRVkVsSmc9PSIsInZhbHVlIjoiT2grdTZZVHd3VS9COG5zb3o2N3VoQT09IiwibWFjIjoiZjgzNDFiYjk2NWE2N2JlNjYyODI2YmE1MDEyNzFiMTY1NDU5OTZkNWVkZGY0YjYyOGRmMzU4OWU1NDAwZjVhNSIsInRhZyI6IiJ9",
+                    "text": "As soluções de adaptação (físicas e não físicas), para redução dos mais importantes riscos físicos associados ao clima com relevância, são aplicadas para um período máximo de 5 anos através de um plano de adaptação?",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": 5,
+                        "selected": null,
+                        "action_text": "Continuação para a pergunta 5"
+                      },
+                      {
+                        "text": "Não aplicável, porque não foram detectados riscos",
+                        "action": "Alinhada",
+                        "selected": null,
+                        "action_text": "Fim dos critérios NPS adaptação às alterações climáticas. Continuação para os critérios NPS seguintes."
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": null,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 0,
+                    "answered": 0,
+                    "text_help": "As soluções de adaptação implementadas devem corrresponder a conclusões decorrentes do estudo ou avaliação do risco climático levado a cabo",
+                    "answered_value": null,
+                    "id_external": "2cdfdec7b4f6d71de7f800c19fdc7283"
+                  },
+                  "objective": "Adaptação às alterações climáticas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": [
+                      "eyJpdiI6InFJb2UzREFuVWg5THpZM2hPVGtobEE9PSIsInZhbHVlIjoiSFI0aDRoQ29pN0ljUjBTOHM4OVlWQT09IiwibWFjIjoiMzcwM2NmYWFiMmVjNDUxOTQ5ZmJhNDVmYzE4YWFmMmJkNDIxZDYxODQ0NTA2NTlkYjVkYWEwMTUwNmIwNjZjMCIsInRhZyI6IiJ9",
+                      "eyJpdiI6IjEwOSs3c3VhWmtNMzEyanJweEVXU0E9PSIsInZhbHVlIjoiUWJzUjhtUjRvT0RxV0tmV29OSW5BQT09IiwibWFjIjoiMThkMWY2YWE0MDAxMTRiMTE4MzMzMmI4NjQyMzBlZjc3ZTVlOTRjZTdkYTVjNmZkOGQ5Y2FmMjc4NWNhY2JmOCIsInRhZyI6IiJ9",
+                      "eyJpdiI6IkpZRkZ6OWhFeVc5dmFNYUhqNXRXWnc9PSIsInZhbHVlIjoiOENTaU4vSjh4TlB2a21pZ3FWUlNiQT09IiwibWFjIjoiOTNkZGYzZDg4OGJjNzQzNTQyZDNmODUwNzc5YzU2OTRjNDQwMWQyNWY0ZjVjNzM1MDMwYTA2NDg0M2QwMGYwZiIsInRhZyI6IiJ9"
+                    ],
+                    "text": "Foram integradas soluções de adaptação (físicas e não físicas) que reduzem os mais importantes riscos físicos associados ao clima com relevância para a atividade na fase de projeto e de construção e aplicadas antes do arranque das operações?",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": 5,
+                        "selected": "Sim.",
+                        "action_text": "Continuação do Questionário"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": null,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      },
+                      {
+                        "text": "Não aplicável, porque não foram detectados riscos",
+                        "action": "Alinhada",
+                        "selected": null,
+                        "action_text": "Fim dos critérios NPS adaptação às alterações climáticas. Continuação para os critérios NPS seguintes."
+                      }
+                    ],
+                    "enabled": 1,
+                    "answered": 1,
+                    "text_help": "As soluções de adaptação implementadas devem corrresponder a conclusões decorrentes do estudo ou avaliação do risco climático levado a cabo",
+                    "answered_value": "Sim.",
+                    "id_external": "26a2e2c139d1dd379e86b6a12ce91e04"
+                  },
+                  "objective": "Adaptação às alterações climáticas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": {
+                      "": "eyJpdiI6IitGK0s3TzF2MVhLT1pzSlNsOVBPV1E9PSIsInZhbHVlIjoicDIxRC94SXNIbURIUFBZNzNGMTRNdz09IiwibWFjIjoiZDhhM2RiN2U0MzVjNTMxNzJlNzYwMzExZGE0MTQ1NThiMTc3MTFhODE0YjIyMzJmMWEyMzhmNWI5ZjEwODg0ZCIsInRhZyI6IiJ9",
+                      "1": "eyJpdiI6Inp3RVEzWmhvbHEzZFJ4VEpaZVdMY0E9PSIsInZhbHVlIjoiN01OeTBwZGVrUlFxQjhYZmdLTkdxdz09IiwibWFjIjoiMjQ0YmIxZTg2MzJmYjhjOTAzZTExZjNiNGM4YzVhNzAxYmE4YTYyNTdlMjBjZWEyY2E2MTQ2ODc3MTQ1ZDQ1MyIsInRhZyI6IiJ9",
+                      "2": "eyJpdiI6ImNWam5wV290MzdXMFhWVVFTQ2ZQZnc9PSIsInZhbHVlIjoiWHZqN2hRTU81d3MwVUJxWFQzMElIQT09IiwibWFjIjoiOTc0NzdhMDM3ZDAwYjg5YjhjYjQzOWVhOWJjZTE4Zjg0NmY0ZDIzYWQ3OTEzMDc2ZjEyY2FhNGQ3ZDdlY2I3YSIsInRhZyI6IiJ9",
+                      "3": "eyJpdiI6ImUxN0Z2Nk10Vy9NWklBZFJrS0pPdmc9PSIsInZhbHVlIjoiS3NOVUZjSmY0VVlzd2w0MFJmK0t4Zz09IiwibWFjIjoiNzQyMjdlNDQ4YjAwOWZkYzE1NDRiZTQ1ZjM0Y2Q3MjJiZjg0NTNlZTA3ODFjYzNjNTI1ZjEyOTQyMjI5ODkwMiIsInRhZyI6IiJ9"
+                    },
+                    "text": "As soluções de adaptação aplicadas preenchem os seguintes critérios?<br>- Não afetar negativamente os esforços de adaptação nem o nível de resiliência aos riscos físicos associados ao clima de outras pessoas, da natureza, do património cultural, dos ativos e das outras atividades económicas;<br>- Coerência com as estratégias e os planos de adaptação elaborados a nível local, setorial, regional ou nacional;<br>- Ponderação do recurso a soluções baseadas na natureza ou assentam, na medida do possível, em infraestruturas azuis ou verdes;",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": "Alinhada",
+                        "selected": "Sim.",
+                        "action_text": "Continuação do Questionário"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": null,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 1,
+                    "answered": 1,
+                    "text_help": "Soluções baseadas na natureza - soluções inspiradas na natureza e nela apoiadas, eficazes em termos de custos, que simultaneamente proporcionam benefícios ambientais, sociais e económicos e ajudam a reforçar a resiliência.Soluções que favorecem a biodiversidade e apoiam a prestação de um conjunto de serviços ecossistémicos.",
+                    "answered_value": "Sim.",
+                    "id_external": "90b702e7544431625619a76b97044202"
+                  },
+                  "objective": "Adaptação às alterações climáticas",
+                  "activity_code": 4.1
+                }
+              ],
+              "percentage": 0,
+              "arrayPosition": 0
+            },
+            {
+              "verified": 1,
+              "objective": "Transição para uma economia circular",
+              "questions": [
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": "eyJpdiI6InlrYVFJaU1lT25ONFc1YTZjbE9qM0E9PSIsInZhbHVlIjoiSy9zdVF1Um16WGI3THlPY1A3aDF4Zz09IiwibWFjIjoiY2ZhOTAxNjNhMDZmYjc1MmNjNTIwNzA0YTg5MmI1NWZlNzcxNDZhNDhiNWFhODFmYzhjOGQ2YTMxZmI4OTM5ZSIsInRhZyI6IiJ9",
+                    "text": "É avaliada a disponibilidade e, se possível, são utilizados equipamentos e componentes de elevada durabilidade e reciclabilidade e de fácil desmontagem e reparação?",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": "Alinhada",
+                        "selected": "Sim.",
+                        "action_text": "Fim dos critérios NPS para a transição para uma economia circular. Passagem para os critérios de NPS para a proteção e restauro da biodiversidade e dos ecossistemas"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": null,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 1,
+                    "answered": 1,
+                    "text_help": "Caso tenha sido avaliada a possibilidade, mas não tenha sido possível a aplicação a resposta deve ainda assim ser afirmativa",
+                    "answered_value": "Sim.",
+                    "id_external": "59ad2afb74d242f7bcf5cdaf9b1264f9"
+                  },
+                  "objective": "Transição para uma economia circular",
+                  "activity_code": 4.1
+                }
+              ],
+              "percentage": 0,
+              "arrayPosition": 1
+            },
+            {
+              "verified": 1,
+              "objective": "Proteção e restauro da biodiversidade e dos ecossistemas",
+              "questions": [
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": "eyJpdiI6InlrYVFJaU1lT25ONFc1YTZjbE9qM0E9PSIsInZhbHVlIjoiSy9zdVF1Um16WGI3THlPY1A3aDF4Zz09IiwibWFjIjoiY2ZhOTAxNjNhMDZmYjc1MmNjNTIwNzA0YTg5MmI1NWZlNzcxNDZhNDhiNWFhODFmYzhjOGQ2YTMxZmI4OTM5ZSIsInRhZyI6IiJ9",
+                    "text": "Foi realizada uma avaliação de impacto ambiental (AIA) ou uma verificação preliminar em conformidade com a Diretiva 2011/92/EU?",
+                    "links": [
+                      {
+                        "url": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2012:026:0001:0021:pt:PDF",
+                        "text": "Diretiva 2011/92/UE\n"
+                      },
+                      {
+                        "url": "https://dre.pt/dre/legislacao-consolidada/decreto-lei/2013-70122774",
+                        "text": "Decreto-lei n.º 151.º-B/2013"
+                      }
+                    ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": 4,
+                        "selected": "Sim.",
+                        "action_text": "Continuação para a pergunta 4"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": 2,
+                        "selected": null,
+                        "action_text": "Continuação do Questionário"
+                      }
+                    ],
+                    "enabled": 1,
+                    "answered": 1,
+                    "text_help": "Diretiva 2011/92/UE - Estabelece os critérios relativos à avaliação dos efeitos de determinados projectos públicos e privados no ambiente.<br><br>Decreto-lei n.º 151.º-B/2013 - Transpõe para o ordenamento português a Diretiva 2011/92/EU, definindo o regime jurídico da avaliação de impacte ambiental.",
+                    "answered_value": "Sim.",
+                    "id_external": "59ad2afb74d242f7bcf5cdaf9b1264f9"
+                  },
+                  "objective": "Proteção e restauro da biodiversidade e dos ecossistemas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": "eyJpdiI6InhUcmUvZ3M3NS82WlJqQWdTMGQ5Wmc9PSIsInZhbHVlIjoiRU5wVGd0cmtIUVkyQ2o0czNwYUNtdz09IiwibWFjIjoiMGFmOTg3OTg3NmIzOTFhNDI3YjY3MjUwYTQyNmQ2NDllM2Y1MWEwOWZkNjZlMjAwNmM2ZDNjZDAzMGUzMmY0NCIsInRhZyI6IiJ9",
+                    "text": " Foi  efetuado  procedimento  de  avaliação  ambiental  distinto  de  AIA?  ",
+                    "links": [
+                      {
+                        "url": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2010:020:0007:0025:PT:PDF",
+                        "text": "Diretiva 2009/147/CE"
+                      },
+                      {
+                        "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX%3A31992L0043",
+                        "text": "Diretiva 92/43/CEE "
+                      }
+                    ],
+                    "answer": [
+                      {
+                        "text": "Sim",
+                        "action": 3,
+                        "selected": null,
+                        "action_text": "Continuação do Questionário"
+                      },
+                      {
+                        "text": "Não Aplicável",
+                        "action": "Alinhada",
+                        "selected": null,
+                        "action_text": "Fim do Questionário. Atividade Alinhada com a Taxonomia."
+                      },
+                      {
+                        "text": "Não",
+                        "action": "Não Alinhada",
+                        "selected": null,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 0,
+                    "answered": 0,
+                    "text_help": "Procedimentos possíveis  - Avaliação  de  Incidências Ambientais ou Avaliação Ambiental Estratégica de Projetos<br><br>Avaliação Ambiental - Procedimento deve ser efetuado em conformidade com as Diretivas 2009/147/CE e 92/43/CEE.<br><br>Diretiva 2009/147/CE - Relativa à conservação das aves selvagens<br><br>Diretiva 92/43/CEE - Relativa à preservação dos habitats naturais e da fauna e da flora selvagens<br><br>Atividades em países terceiros - Procedimento em conformidade com as disposições nacionais, ou normas internacionais, que visem a conservação dos habitats naturais e da fauna e flora selvagens e imponham a realização das seguintes etapas: (i) verificação preliminar para determinação se é necessário efetuar uma avaliação adequada dos eventuais impactos nas éspices e habitats protegidos; (ii) avaliação adequada (se apontado como necessário pela verificação preliminar)",
+                    "answered_value": null,
+                    "id_external": "d9fc596440c8213f010027a0a93ef374"
+                  },
+                  "objective": "Proteção e restauro da biodiversidade e dos ecossistemas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": "eyJpdiI6IldDUnE4SkF5dFdTOFFYdHBRVkVsSmc9PSIsInZhbHVlIjoiT2grdTZZVHd3VS9COG5zb3o2N3VoQT09IiwibWFjIjoiZjgzNDFiYjk2NWE2N2JlNjYyODI2YmE1MDEyNzFiMTY1NDU5OTZkNWVkZGY0YjYyOGRmMzU4OWU1NDAwZjVhNSIsInRhZyI6IiJ9",
+                    "text": "Foram adotadas medidas de mitigação e de compensação necessárias, resultantes do procedimento de avaliação ambiental?",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim",
+                        "action": "Alinhada",
+                        "selected": null,
+                        "action_text": "Fim do Questionário. Atividade Alinhada com a Taxonomia."
+                      },
+                      {
+                        "text": "Não",
+                        "action": "Não Alinhada",
+                        "selected": null,
+                        "action_text": "Atividade não Alinhada.Fim do Questionário"
+                      }
+                    ],
+                    "enabled": 0,
+                    "answered": 0,
+                    "text_help": "",
+                    "answered_value": null,
+                    "id_external": "2cdfdec7b4f6d71de7f800c19fdc7283"
+                  },
+                  "objective": "Proteção e restauro da biodiversidade e dos ecossistemas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": [
+                      "eyJpdiI6InFJb2UzREFuVWg5THpZM2hPVGtobEE9PSIsInZhbHVlIjoiSFI0aDRoQ29pN0ljUjBTOHM4OVlWQT09IiwibWFjIjoiMzcwM2NmYWFiMmVjNDUxOTQ5ZmJhNDVmYzE4YWFmMmJkNDIxZDYxODQ0NTA2NTlkYjVkYWEwMTUwNmIwNjZjMCIsInRhZyI6IiJ9",
+                      "eyJpdiI6IjEwOSs3c3VhWmtNMzEyanJweEVXU0E9PSIsInZhbHVlIjoiUWJzUjhtUjRvT0RxV0tmV29OSW5BQT09IiwibWFjIjoiMThkMWY2YWE0MDAxMTRiMTE4MzMzMmI4NjQyMzBlZjc3ZTVlOTRjZTdkYTVjNmZkOGQ5Y2FmMjc4NWNhY2JmOCIsInRhZyI6IiJ9",
+                      "eyJpdiI6IkpZRkZ6OWhFeVc5dmFNYUhqNXRXWnc9PSIsInZhbHVlIjoiOENTaU4vSjh4TlB2a21pZ3FWUlNiQT09IiwibWFjIjoiOTNkZGYzZDg4OGJjNzQzNTQyZDNmODUwNzc5YzU2OTRjNDQwMWQyNWY0ZjVjNzM1MDMwYTA2NDg0M2QwMGYwZiIsInRhZyI6IiJ9"
+                    ],
+                    "text": "Foram adotadas medidas de mitigação e de compensação necessárias, resultantes da AIA ou da análise preliminar?",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim",
+                        "action": "Alinhada",
+                        "selected": "Sim",
+                        "action_text": "Fim do Questionário. Atividade Alinhada com a Taxonomia."
+                      },
+                      {
+                        "text": "Não",
+                        "action": "Não Alinhada",
+                        "selected": null,
+                        "action_text": "Atividade não Alinhada. Fim do Questionário"
+                      }
+                    ],
+                    "enabled": 1,
+                    "answered": 1,
+                    "text_help": "",
+                    "answered_value": "Sim",
+                    "id_external": "26a2e2c139d1dd379e86b6a12ce91e04"
+                  },
+                  "objective": "Proteção e restauro da biodiversidade e dos ecossistemas",
+                  "activity_code": 4.1
+                }
+              ],
+              "percentage": 0,
+              "arrayPosition": 2
+            }
+          ],
+          "imported": 0,
+          "verified": 1,
+          "hasPercentage": 0
+        },
+        "created_at": "2023-10-19T19:26:25.000000Z",
+        "updated_at": "2023-10-19T19:46:28.000000Z",
+        "deleted_at": null,
+        "business_activities_id": "eyJpdiI6ImJXbHJvV0UwV1RJQ3hnMWg1UlRkdmc9PSIsInZhbHVlIjoiS1IvUTBsRkFyaEFuTVlFclRRZDE5UT09IiwibWFjIjoiMTZlYTliMGYwZjBiZDdlNzgxOTgzZTlkNzY3ZGY0NDk4NzU5OWI5MjY0NDA2ODBjNWI5ZmJkZDU1N2IxYzk1NSIsInRhZyI6IiJ9",
+        "id_external": "61b4b06a7e885878115350883c8cc589",
+        "taxonomy_id_external": "a122fee798efeb9a5af694d8363f1ff5",
+        "business_activities_id_external": "504e382d546dbee578686f130887ec23"
+      },
+      {
+        "id": "eyJpdiI6ImhDU3Z2OW9xQnBINkUzOFVkRzUwS1E9PSIsInZhbHVlIjoiK0ZiRXR4MDlPTVNNMDdsZVl5TDE2dz09IiwibWFjIjoiYTVlMzc4Njc5YTBhZGQ3MmQwMjYyZWY0YmVhZDllNzVlYzE0NzIxNjk0Yzg3NGQ4MjU3YzExMTI4ZTc0NGZkMyIsInRhZyI6IiJ9",
+        "taxonomy_id": "eyJpdiI6IjliY2VkL3k3OTF1V2tERXc1dTFtTVE9PSIsInZhbHVlIjoiRmtLRnRIWm10Smt4dWVmS2dqWXc1dz09IiwibWFjIjoiOTc1NGE0MDdiMDE4Yzg2ZTQ4NjcxNTQ5MjYyMzU5N2I3MGE1ZTBiYjU3MGNlMmMyYzEzZWVjNGVhYThjNzU1OCIsInRhZyI6IiJ9",
+        "name": "Teste",
+        "activity_resume": {
+          "opex": 50,
+          "capex": 50,
+          "volume": 50
+        },
+        "contribute": {
+          "data": [
+            {
+              "imported": 1,
+              "verified": 0,
+              "objective": "Mitigação das alterações climáticas",
+              "questions": [
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Contribui substancialmente para um dos objetivos",
+                  "question": {
+                    "id": "eyJpdiI6InlrYVFJaU1lT25ONFc1YTZjbE9qM0E9PSIsInZhbHVlIjoiSy9zdVF1Um16WGI3THlPY1A3aDF4Zz09IiwibWFjIjoiY2ZhOTAxNjNhMDZmYjc1MmNjNTIwNzA0YTg5MmI1NWZlNzcxNDZhNDhiNWFhODFmYzhjOGQ2YTMxZmI4OTM5ZSIsInRhZyI6IiJ9",
+                    "text": "A atividade consiste na produção de eletricidade a partir da tecnologia solar fotovoltaica?",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": "Alinhada",
+                        "selected": 0,
+                        "action_text": "Fim dos critérios de avaliação da contribuição para a mitigação das alterações climáticas. Passagem para os critérios de NPS a adaptação às alterações climáticas"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": 0,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 1,
+                    "answered": 0,
+                    "text_help": "",
+                    "answered_value": null,
+                    "id_external": "59ad2afb74d242f7bcf5cdaf9b1264f9"
+                  },
+                  "objective": "Mitigação das alterações climáticas",
+                  "activity_code": 4.1
+                }
+              ],
+              "percentage": 100,
+              "arrayPosition": 0
+            },
+            {
+              "imported": 1,
+              "verified": 0,
+              "objective": "Adaptação às alterações climáticas",
+              "questions": [
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Contribui substancialmente para um dos objetivos",
+                  "question": {
+                    "id": "eyJpdiI6InlrYVFJaU1lT25ONFc1YTZjbE9qM0E9PSIsInZhbHVlIjoiSy9zdVF1Um16WGI3THlPY1A3aDF4Zz09IiwibWFjIjoiY2ZhOTAxNjNhMDZmYjc1MmNjNTIwNzA0YTg5MmI1NWZlNzcxNDZhNDhiNWFhODFmYzhjOGQ2YTMxZmI4OTM5ZSIsInRhZyI6IiJ9",
+                    "text": "Foram adotadas soluções físicas e não físicas («soluções de adaptação») que reduzem substancialmente os mais importantes riscos físicos associados ao clima?",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": 2,
+                        "selected": 0,
+                        "action_text": "Continuação do Questionário"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": 0,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 1,
+                    "answered": 0,
+                    "text_help": "As soluções físicas em causa devem resultar das conclusões de um estudo ou avaliação do risco climático e da vulnerabilidade dos principais riscos físicos associados ao clima com relevância para a atividade",
+                    "answered_value": null,
+                    "id_external": "59ad2afb74d242f7bcf5cdaf9b1264f9"
+                  },
+                  "objective": "Adaptação às alterações climáticas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Contribui substancialmente para um dos objetivos",
+                  "question": {
+                    "id": "eyJpdiI6InhUcmUvZ3M3NS82WlJqQWdTMGQ5Wmc9PSIsInZhbHVlIjoiRU5wVGd0cmtIUVkyQ2o0czNwYUNtdz09IiwibWFjIjoiMGFmOTg3OTg3NmIzOTFhNDI3YjY3MjUwYTQyNmQ2NDllM2Y1MWEwOWZkNjZlMjAwNmM2ZDNjZDAzMGUzMmY0NCIsInRhZyI6IiJ9",
+                    "text": "Foi realizado um estudo ou avaliação do risco climático e da vulnerabilidade dos principais riscos físicos associados ao clima com relevância para a atividade, de acordo com os requisitos e etapas constantes do Anexo II do Regulamento Delegado (UE) 2021/2139 e tendo em conta os riscos descritos no Anexo A?",
+                    "links": [
+                      {
+                        "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/PDF/?uri=CELEX:32021R2139&from=EN",
+                        "text": "Regulamento Delegado (UE) 2021/2139"
+                      },
+                      {
+                        "url": "https://www.ipcc.ch/reports/",
+                        "text": "Relatórios IPCC"
+                      }
+                    ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": 3,
+                        "selected": 0,
+                        "action_text": "Continuação do Questionário"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": 0,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 0,
+                    "answered": 0,
+                    "text_help": "Requisitos de preparação do estudo/avaliação do risco climático e de vulnerabilidade:<br>- Necessidade de existir uma verificação preliminar da atividade para identificação dos riscos físicos climáticos enumerados na secção II do Apêndice A que possam afetar o desempenho da atividade económica durante o seu período de vida esperado;<br>- Caso se identifiquem um ou mais riscos físicos associados ao clima enumerados na secção II do Apêndice A, deve ser realizada umaa avaliação da vulnerabilidade e dos riscos climáticos para determinar a importância dos riscos físicos associados ao clima para a atividade económica;<br>- Necessidade de avaliação das soluções de adaptação que possam reduzir os riscos físicos associados ao clima;<br><br>Atividades com expectativa de vida útil inferior a 10 anos - A avaliação de vulnerabilidade e dos riscos climáticos é realizada através de uma avaliação com base nas projeções climáticas à mais pequena escala adequada;<br><br>Restantes atividades - A avaliação de vulnerabilidade e dos riscos climáticos é realizada a com recurso a projeções climáticas de ponta e com a máxima resolução disponível para o conjunto existente de futuros cenários possíveis (estabelecidos pelo Painel Intergovernamental sobre as Alterações Climáticas(IPCC) para o período de vida esperado para a atividade .<br><br>Grandes Investimentos - Os cenários de projeções climáticas têm no mínimo de 10 a 30 anos.  <br><br>O estudo ou avaliação realizada deve ter por base:<br>- Os  conhecimentos científicos mais recentes para a determinação da vulnerabilidade e dos riscos e as metologias associadas, conforme relatórios do IPCC;<br>- Publicações científicas objeto de análise interpares recentes e em fonte aberta (nomeadamente seviços Copernicus)",
+                    "answered_value": null,
+                    "id_external": "d9fc596440c8213f010027a0a93ef374"
+                  },
+                  "objective": "Adaptação às alterações climáticas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Contribui substancialmente para um dos objetivos",
+                  "question": {
+                    "id": "eyJpdiI6IldDUnE4SkF5dFdTOFFYdHBRVkVsSmc9PSIsInZhbHVlIjoiT2grdTZZVHd3VS9COG5zb3o2N3VoQT09IiwibWFjIjoiZjgzNDFiYjk2NWE2N2JlNjYyODI2YmE1MDEyNzFiMTY1NDU5OTZkNWVkZGY0YjYyOGRmMzU4OWU1NDAwZjVhNSIsInRhZyI6IiJ9",
+                    "text": "As soluções de adaptação adotadas preenchem os seguintes critérios:<br>- Não afetar negativamente os esforços de adaptação nem o nível de resiliência aos riscos físicos associados ao clima de outras pessoas, da natureza, do património cultural, dos ativos e das outras atividades económicas;<br>- Promoção do recurso a soluções baseadas na natureza ou assentam, na medida do possível, em infraestruturas azuis ou verdes;<br>-  Coerência com as estratégias e os planos de adaptação elaborados a nível local, setorial, regional ou nacional;<br>- Monitorização e avaliação com base em indicadores predefinidos e aplicação de medidas corretivas em caso de incumprimento de metas;<br>- Satisfação de critérios técnicos de avaliação para o cumprimento do princípio NPS da atividade que as soluções físicas possam configurar;",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": "Alinhada",
+                        "selected": 0,
+                        "action_text": "Fim dos critérios de avaliação de contribuição para a adaptação às alterações climáticas. Passagem para os critérios de NPS a transição para uma economia circular"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": 0,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 0,
+                    "answered": 0,
+                    "text_help": "Soluções baseadas na natureza - soluções inspiradas na natureza e nela apoiadas, eficazes em termos de custos, que simultaneamente proporcionam benefícios ambientais, sociais e económicos e ajudam a reforçar a resiliência.Soluções que favorecem a biodiversidade e apoiam a prestação de um conjunto de serviços ecossistémicos.",
+                    "answered_value": null,
+                    "id_external": "2cdfdec7b4f6d71de7f800c19fdc7283"
+                  },
+                  "objective": "Adaptação às alterações climáticas",
+                  "activity_code": 4.1
+                }
+              ],
+              "percentage": 0,
+              "arrayPosition": 1
+            }
+          ],
+          "imported": 1,
+          "verified": 0,
+          "hasPercentage": 1
+        },
+        "dnsh": {
+          "data": [
+            {
+              "imported": 1,
+              "verified": 0,
+              "objective": "Adaptação às alterações climáticas",
+              "questions": [
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": "eyJpdiI6InlrYVFJaU1lT25ONFc1YTZjbE9qM0E9PSIsInZhbHVlIjoiSy9zdVF1Um16WGI3THlPY1A3aDF4Zz09IiwibWFjIjoiY2ZhOTAxNjNhMDZmYjc1MmNjNTIwNzA0YTg5MmI1NWZlNzcxNDZhNDhiNWFhODFmYzhjOGQ2YTMxZmI4OTM5ZSIsInRhZyI6IiJ9",
+                    "text": "Foi realizado um estudo ou avaliação do risco climático e da vulnerabilidade dos principais riscos físicos associados ao clima com relevância para a atividade, de acordo com os requisitos e etapas constantes no Apêndice A do Anexo I do Regulamento Delegado (UE) 2021/2139 da Comissão?",
+                    "links": [
+                      {
+                        "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/PDF/?uri=CELEX:32021R2139&from=EN",
+                        "text": "Regulamento Delegado (UE) 2021/2139"
+                      },
+                      {
+                        "url": "https://www.ipcc.ch/reports/",
+                        "text": "Relatórios IPCC"
+                      }
+                    ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": 2,
+                        "selected": 0,
+                        "action_text": "Continuação do Questionário"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": 0,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 1,
+                    "answered": 0,
+                    "text_help": "Requisitos de preparação do estudo/avaliação do risco climático e de vulnerabilidade:<br>- Necessidade de existir uma verificação preliminar da atividade para identificação dos riscos físicos climáticos enumerados na secção II do Apêndice A que possam afetar o desempenho da atividade económica durante o seu período de vida esperado;<br>- Caso se identifiquem um ou mais riscos físicos associados ao clima enumerados na secção II do Apêndice A, deve ser realizada umaa avaliação da vulnerabilidade e dos riscos climáticos para determinar a importância dos riscos físicos associados ao clima para a atividade económica;<br>- Necessidade de avaliação das soluções de adaptação que possam reduzir os riscos físicos associados ao clima;<br><br>Atividades com expectativa de vida útil inferior a 10 anos - A avaliação de vulnerabilidade e dos riscos climáticos é realizada através de uma avaliação com base nas projeções climáticas à mais pequena escala adequada;<br><br>Restantes atividades - A avaliação de vulnerabilidade e dos riscos climáticos é realizada a com recurso a projeções climáticas de ponta e com a máxima resolução disponível para o conjunto existente de futuros cenários possíveis (estabelecidos pelo Painel Intergovernamental sobre as Alterações Climáticas(IPCC) para o período de vida esperado para a atividade .<br><br>Grandes Investimentos - Os cenários de projeções climáticas têm no mínimo de 10 a 30 anos.  <br><br>O estudo ou avaliação realizada deve ter por base:<br>- Os  conhecimentos científicos mais recentes para a determinação da vulnerabilidade e dos riscos e as metologias associadas, conforme relatórios do IPCC;<br>- Publicações científicas objeto de análise interpares recentes e em fonte aberta (nomeadamente seviços Copernicus)",
+                    "answered_value": null,
+                    "id_external": "59ad2afb74d242f7bcf5cdaf9b1264f9"
+                  },
+                  "objective": "Adaptação às alterações climáticas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": "eyJpdiI6InhUcmUvZ3M3NS82WlJqQWdTMGQ5Wmc9PSIsInZhbHVlIjoiRU5wVGd0cmtIUVkyQ2o0czNwYUNtdz09IiwibWFjIjoiMGFmOTg3OTg3NmIzOTFhNDI3YjY3MjUwYTQyNmQ2NDllM2Y1MWEwOWZkNjZlMjAwNmM2ZDNjZDAzMGUzMmY0NCIsInRhZyI6IiJ9",
+                    "text": "A atividade é nova ou preexistente?",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Nova",
+                        "action": 4,
+                        "selected": 0,
+                        "action_text": "Continuação para a pergunta 4"
+                      },
+                      {
+                        "text": "Nova, mas utiliza ativos físicos preexistentes",
+                        "action": 3,
+                        "selected": 0,
+                        "action_text": "Continuação do Questionário"
+                      },
+                      {
+                        "text": "Preexistente",
+                        "action": 3,
+                        "selected": 0,
+                        "action_text": "Continuação do Questionário"
+                      },
+                      {
+                        "text": "Preexistente, mas utiliza ativos recém construídos",
+                        "action": 4,
+                        "selected": 0,
+                        "action_text": "Continuação para a pergunta 4"
+                      }
+                    ],
+                    "enabled": 0,
+                    "answered": 0,
+                    "text_help": "",
+                    "answered_value": null,
+                    "id_external": "d9fc596440c8213f010027a0a93ef374"
+                  },
+                  "objective": "Adaptação às alterações climáticas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": "eyJpdiI6IldDUnE4SkF5dFdTOFFYdHBRVkVsSmc9PSIsInZhbHVlIjoiT2grdTZZVHd3VS9COG5zb3o2N3VoQT09IiwibWFjIjoiZjgzNDFiYjk2NWE2N2JlNjYyODI2YmE1MDEyNzFiMTY1NDU5OTZkNWVkZGY0YjYyOGRmMzU4OWU1NDAwZjVhNSIsInRhZyI6IiJ9",
+                    "text": "As soluções de adaptação (físicas e não físicas), para redução dos mais importantes riscos físicos associados ao clima com relevância, são aplicadas para um período máximo de 5 anos através de um plano de adaptação?",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": 5,
+                        "selected": 0,
+                        "action_text": "Continuação para a pergunta 5"
+                      },
+                      {
+                        "text": "Não aplicável, porque não foram detectados riscos",
+                        "action": "Alinhada",
+                        "selected": 0,
+                        "action_text": "Fim dos critérios NPS adaptação às alterações climáticas. Continuação para os critérios NPS seguintes."
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": 0,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 0,
+                    "answered": 0,
+                    "text_help": "As soluções de adaptação implementadas devem corrresponder a conclusões decorrentes do estudo ou avaliação do risco climático levado a cabo",
+                    "answered_value": null,
+                    "id_external": "2cdfdec7b4f6d71de7f800c19fdc7283"
+                  },
+                  "objective": "Adaptação às alterações climáticas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": [
+                      "eyJpdiI6InFJb2UzREFuVWg5THpZM2hPVGtobEE9PSIsInZhbHVlIjoiSFI0aDRoQ29pN0ljUjBTOHM4OVlWQT09IiwibWFjIjoiMzcwM2NmYWFiMmVjNDUxOTQ5ZmJhNDVmYzE4YWFmMmJkNDIxZDYxODQ0NTA2NTlkYjVkYWEwMTUwNmIwNjZjMCIsInRhZyI6IiJ9",
+                      "eyJpdiI6IjEwOSs3c3VhWmtNMzEyanJweEVXU0E9PSIsInZhbHVlIjoiUWJzUjhtUjRvT0RxV0tmV29OSW5BQT09IiwibWFjIjoiMThkMWY2YWE0MDAxMTRiMTE4MzMzMmI4NjQyMzBlZjc3ZTVlOTRjZTdkYTVjNmZkOGQ5Y2FmMjc4NWNhY2JmOCIsInRhZyI6IiJ9",
+                      "eyJpdiI6IkpZRkZ6OWhFeVc5dmFNYUhqNXRXWnc9PSIsInZhbHVlIjoiOENTaU4vSjh4TlB2a21pZ3FWUlNiQT09IiwibWFjIjoiOTNkZGYzZDg4OGJjNzQzNTQyZDNmODUwNzc5YzU2OTRjNDQwMWQyNWY0ZjVjNzM1MDMwYTA2NDg0M2QwMGYwZiIsInRhZyI6IiJ9"
+                    ],
+                    "text": "Foram integradas soluções de adaptação (físicas e não físicas) que reduzem os mais importantes riscos físicos associados ao clima com relevância para a atividade na fase de projeto e de construção e aplicadas antes do arranque das operações?",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": 5,
+                        "selected": 0,
+                        "action_text": "Continuação do Questionário"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": 0,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      },
+                      {
+                        "text": "Não aplicável, porque não foram detectados riscos",
+                        "action": "Alinhada",
+                        "selected": 0,
+                        "action_text": "Fim dos critérios NPS adaptação às alterações climáticas. Continuação para os critérios NPS seguintes."
+                      }
+                    ],
+                    "enabled": 0,
+                    "answered": 0,
+                    "text_help": "As soluções de adaptação implementadas devem corrresponder a conclusões decorrentes do estudo ou avaliação do risco climático levado a cabo",
+                    "answered_value": null,
+                    "id_external": "26a2e2c139d1dd379e86b6a12ce91e04"
+                  },
+                  "objective": "Adaptação às alterações climáticas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": {
+                      "": "eyJpdiI6IitGK0s3TzF2MVhLT1pzSlNsOVBPV1E9PSIsInZhbHVlIjoicDIxRC94SXNIbURIUFBZNzNGMTRNdz09IiwibWFjIjoiZDhhM2RiN2U0MzVjNTMxNzJlNzYwMzExZGE0MTQ1NThiMTc3MTFhODE0YjIyMzJmMWEyMzhmNWI5ZjEwODg0ZCIsInRhZyI6IiJ9",
+                      "1": "eyJpdiI6Inp3RVEzWmhvbHEzZFJ4VEpaZVdMY0E9PSIsInZhbHVlIjoiN01OeTBwZGVrUlFxQjhYZmdLTkdxdz09IiwibWFjIjoiMjQ0YmIxZTg2MzJmYjhjOTAzZTExZjNiNGM4YzVhNzAxYmE4YTYyNTdlMjBjZWEyY2E2MTQ2ODc3MTQ1ZDQ1MyIsInRhZyI6IiJ9",
+                      "2": "eyJpdiI6ImNWam5wV290MzdXMFhWVVFTQ2ZQZnc9PSIsInZhbHVlIjoiWHZqN2hRTU81d3MwVUJxWFQzMElIQT09IiwibWFjIjoiOTc0NzdhMDM3ZDAwYjg5YjhjYjQzOWVhOWJjZTE4Zjg0NmY0ZDIzYWQ3OTEzMDc2ZjEyY2FhNGQ3ZDdlY2I3YSIsInRhZyI6IiJ9",
+                      "3": "eyJpdiI6ImUxN0Z2Nk10Vy9NWklBZFJrS0pPdmc9PSIsInZhbHVlIjoiS3NOVUZjSmY0VVlzd2w0MFJmK0t4Zz09IiwibWFjIjoiNzQyMjdlNDQ4YjAwOWZkYzE1NDRiZTQ1ZjM0Y2Q3MjJiZjg0NTNlZTA3ODFjYzNjNTI1ZjEyOTQyMjI5ODkwMiIsInRhZyI6IiJ9"
+                    },
+                    "text": "As soluções de adaptação aplicadas preenchem os seguintes critérios?<br>- Não afetar negativamente os esforços de adaptação nem o nível de resiliência aos riscos físicos associados ao clima de outras pessoas, da natureza, do património cultural, dos ativos e das outras atividades económicas;<br>- Coerência com as estratégias e os planos de adaptação elaborados a nível local, setorial, regional ou nacional;<br>- Ponderação do recurso a soluções baseadas na natureza ou assentam, na medida do possível, em infraestruturas azuis ou verdes;",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": "Alinhada",
+                        "selected": 0,
+                        "action_text": "Continuação do Questionário"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": 0,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 0,
+                    "answered": 0,
+                    "text_help": "Soluções baseadas na natureza - soluções inspiradas na natureza e nela apoiadas, eficazes em termos de custos, que simultaneamente proporcionam benefícios ambientais, sociais e económicos e ajudam a reforçar a resiliência.Soluções que favorecem a biodiversidade e apoiam a prestação de um conjunto de serviços ecossistémicos.",
+                    "answered_value": null,
+                    "id_external": "90b702e7544431625619a76b97044202"
+                  },
+                  "objective": "Adaptação às alterações climáticas",
+                  "activity_code": 4.1
+                }
+              ],
+              "percentage": 0,
+              "arrayPosition": 0
+            },
+            {
+              "imported": 1,
+              "verified": 0,
+              "objective": "Transição para uma economia circular",
+              "questions": [
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": "eyJpdiI6InlrYVFJaU1lT25ONFc1YTZjbE9qM0E9PSIsInZhbHVlIjoiSy9zdVF1Um16WGI3THlPY1A3aDF4Zz09IiwibWFjIjoiY2ZhOTAxNjNhMDZmYjc1MmNjNTIwNzA0YTg5MmI1NWZlNzcxNDZhNDhiNWFhODFmYzhjOGQ2YTMxZmI4OTM5ZSIsInRhZyI6IiJ9",
+                    "text": "É avaliada a disponibilidade e, se possível, são utilizados equipamentos e componentes de elevada durabilidade e reciclabilidade e de fácil desmontagem e reparação?",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": "Alinhada",
+                        "selected": 0,
+                        "action_text": "Fim dos critérios NPS para a transição para uma economia circular. Passagem para os critérios de NPS para a proteção e restauro da biodiversidade e dos ecossistemas"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": "Não Alinhada",
+                        "selected": 0,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 1,
+                    "answered": 0,
+                    "text_help": "Caso tenha sido avaliada a possibilidade, mas não tenha sido possível a aplicação a resposta deve ainda assim ser afirmativa",
+                    "answered_value": null,
+                    "id_external": "59ad2afb74d242f7bcf5cdaf9b1264f9"
+                  },
+                  "objective": "Transição para uma economia circular",
+                  "activity_code": 4.1
+                }
+              ],
+              "percentage": 0,
+              "arrayPosition": 1
+            },
+            {
+              "imported": 1,
+              "verified": 0,
+              "objective": "Proteção e restauro da biodiversidade e dos ecossistemas",
+              "questions": [
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": "eyJpdiI6InlrYVFJaU1lT25ONFc1YTZjbE9qM0E9PSIsInZhbHVlIjoiSy9zdVF1Um16WGI3THlPY1A3aDF4Zz09IiwibWFjIjoiY2ZhOTAxNjNhMDZmYjc1MmNjNTIwNzA0YTg5MmI1NWZlNzcxNDZhNDhiNWFhODFmYzhjOGQ2YTMxZmI4OTM5ZSIsInRhZyI6IiJ9",
+                    "text": "Foi realizada uma avaliação de impacto ambiental (AIA) ou uma verificação preliminar em conformidade com a Diretiva 2011/92/EU?",
+                    "links": [
+                      {
+                        "url": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2012:026:0001:0021:pt:PDF",
+                        "text": "Diretiva 2011/92/UE\n"
+                      },
+                      {
+                        "url": "https://dre.pt/dre/legislacao-consolidada/decreto-lei/2013-70122774",
+                        "text": "Decreto-lei n.º 151.º-B/2013"
+                      }
+                    ],
+                    "answer": [
+                      {
+                        "text": "Sim.",
+                        "action": 4,
+                        "selected": 0,
+                        "action_text": "Continuação para a pergunta 4"
+                      },
+                      {
+                        "text": "Não.",
+                        "action": 2,
+                        "selected": 0,
+                        "action_text": "Continuação do Questionário"
+                      }
+                    ],
+                    "enabled": 1,
+                    "answered": 0,
+                    "text_help": "Diretiva 2011/92/UE - Estabelece os critérios relativos à avaliação dos efeitos de determinados projectos públicos e privados no ambiente.<br><br>Decreto-lei n.º 151.º-B/2013 - Transpõe para o ordenamento português a Diretiva 2011/92/EU, definindo o regime jurídico da avaliação de impacte ambiental.",
+                    "answered_value": null,
+                    "id_external": "59ad2afb74d242f7bcf5cdaf9b1264f9"
+                  },
+                  "objective": "Proteção e restauro da biodiversidade e dos ecossistemas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": "eyJpdiI6InhUcmUvZ3M3NS82WlJqQWdTMGQ5Wmc9PSIsInZhbHVlIjoiRU5wVGd0cmtIUVkyQ2o0czNwYUNtdz09IiwibWFjIjoiMGFmOTg3OTg3NmIzOTFhNDI3YjY3MjUwYTQyNmQ2NDllM2Y1MWEwOWZkNjZlMjAwNmM2ZDNjZDAzMGUzMmY0NCIsInRhZyI6IiJ9",
+                    "text": " Foi  efetuado  procedimento  de  avaliação  ambiental  distinto  de  AIA?  ",
+                    "links": [
+                      {
+                        "url": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2010:020:0007:0025:PT:PDF",
+                        "text": "Diretiva 2009/147/CE"
+                      },
+                      {
+                        "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX%3A31992L0043",
+                        "text": "Diretiva 92/43/CEE "
+                      }
+                    ],
+                    "answer": [
+                      {
+                        "text": "Sim",
+                        "action": 3,
+                        "selected": 0,
+                        "action_text": "Continuação do Questionário"
+                      },
+                      {
+                        "text": "Não Aplicável",
+                        "action": "Alinhada",
+                        "selected": 0,
+                        "action_text": "Fim do Questionário. Atividade Alinhada com a Taxonomia."
+                      },
+                      {
+                        "text": "Não",
+                        "action": "Não Alinhada",
+                        "selected": 0,
+                        "action_text": "Atividade não Alinhada. Opção de fechar o questionário ou continuar apenas para efeitos informativos"
+                      }
+                    ],
+                    "enabled": 0,
+                    "answered": 0,
+                    "text_help": "Procedimentos possíveis  - Avaliação  de  Incidências Ambientais ou Avaliação Ambiental Estratégica de Projetos<br><br>Avaliação Ambiental - Procedimento deve ser efetuado em conformidade com as Diretivas 2009/147/CE e 92/43/CEE.<br><br>Diretiva 2009/147/CE - Relativa à conservação das aves selvagens<br><br>Diretiva 92/43/CEE - Relativa à preservação dos habitats naturais e da fauna e da flora selvagens<br><br>Atividades em países terceiros - Procedimento em conformidade com as disposições nacionais, ou normas internacionais, que visem a conservação dos habitats naturais e da fauna e flora selvagens e imponham a realização das seguintes etapas: (i) verificação preliminar para determinação se é necessário efetuar uma avaliação adequada dos eventuais impactos nas éspices e habitats protegidos; (ii) avaliação adequada (se apontado como necessário pela verificação preliminar)",
+                    "answered_value": null,
+                    "id_external": "d9fc596440c8213f010027a0a93ef374"
+                  },
+                  "objective": "Proteção e restauro da biodiversidade e dos ecossistemas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": "eyJpdiI6IldDUnE4SkF5dFdTOFFYdHBRVkVsSmc9PSIsInZhbHVlIjoiT2grdTZZVHd3VS9COG5zb3o2N3VoQT09IiwibWFjIjoiZjgzNDFiYjk2NWE2N2JlNjYyODI2YmE1MDEyNzFiMTY1NDU5OTZkNWVkZGY0YjYyOGRmMzU4OWU1NDAwZjVhNSIsInRhZyI6IiJ9",
+                    "text": "Foram adotadas medidas de mitigação e de compensação necessárias, resultantes do procedimento de avaliação ambiental?",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim",
+                        "action": "Alinhada",
+                        "selected": 0,
+                        "action_text": "Fim do Questionário. Atividade Alinhada com a Taxonomia."
+                      },
+                      {
+                        "text": "Não",
+                        "action": "Não Alinhada",
+                        "selected": 0,
+                        "action_text": "Atividade não Alinhada.Fim do Questionário"
+                      }
+                    ],
+                    "enabled": 0,
+                    "answered": 0,
+                    "text_help": "",
+                    "answered_value": null,
+                    "id_external": "2cdfdec7b4f6d71de7f800c19fdc7283"
+                  },
+                  "objective": "Proteção e restauro da biodiversidade e dos ecossistemas",
+                  "activity_code": 4.1
+                },
+                {
+                  "sector": "Energia",
+                  "activity": "Produção de eletricidade a partir da tecnologia solar fotovoltaica",
+                  "category": "Não prejudicar significativamente",
+                  "question": {
+                    "id": [
+                      "eyJpdiI6InFJb2UzREFuVWg5THpZM2hPVGtobEE9PSIsInZhbHVlIjoiSFI0aDRoQ29pN0ljUjBTOHM4OVlWQT09IiwibWFjIjoiMzcwM2NmYWFiMmVjNDUxOTQ5ZmJhNDVmYzE4YWFmMmJkNDIxZDYxODQ0NTA2NTlkYjVkYWEwMTUwNmIwNjZjMCIsInRhZyI6IiJ9",
+                      "eyJpdiI6IjEwOSs3c3VhWmtNMzEyanJweEVXU0E9PSIsInZhbHVlIjoiUWJzUjhtUjRvT0RxV0tmV29OSW5BQT09IiwibWFjIjoiMThkMWY2YWE0MDAxMTRiMTE4MzMzMmI4NjQyMzBlZjc3ZTVlOTRjZTdkYTVjNmZkOGQ5Y2FmMjc4NWNhY2JmOCIsInRhZyI6IiJ9",
+                      "eyJpdiI6IkpZRkZ6OWhFeVc5dmFNYUhqNXRXWnc9PSIsInZhbHVlIjoiOENTaU4vSjh4TlB2a21pZ3FWUlNiQT09IiwibWFjIjoiOTNkZGYzZDg4OGJjNzQzNTQyZDNmODUwNzc5YzU2OTRjNDQwMWQyNWY0ZjVjNzM1MDMwYTA2NDg0M2QwMGYwZiIsInRhZyI6IiJ9"
+                    ],
+                    "text": "Foram adotadas medidas de mitigação e de compensação necessárias, resultantes da AIA ou da análise preliminar?",
+                    "links": [ ],
+                    "answer": [
+                      {
+                        "text": "Sim",
+                        "action": "Alinhada",
+                        "selected": 0,
+                        "action_text": "Fim do Questionário. Atividade Alinhada com a Taxonomia."
+                      },
+                      {
+                        "text": "Não",
+                        "action": "Não Alinhada",
+                        "selected": 0,
+                        "action_text": "Atividade não Alinhada. Fim do Questionário"
+                      }
+                    ],
+                    "enabled": 0,
+                    "answered": 0,
+                    "text_help": "",
+                    "answered_value": null,
+                    "id_external": "26a2e2c139d1dd379e86b6a12ce91e04"
+                  },
+                  "objective": "Proteção e restauro da biodiversidade e dos ecossistemas",
+                  "activity_code": 4.1
+                }
+              ],
+              "percentage": 0,
+              "arrayPosition": 2
+            }
+          ],
+          "imported": 1,
+          "verified": 0,
+          "hasPercentage": 0
+        },
+        "created_at": "2023-10-19T19:40:44.000000Z",
+        "updated_at": "2023-10-19T19:40:44.000000Z",
+        "deleted_at": null,
+        "business_activities_id": "eyJpdiI6ImJXbHJvV0UwV1RJQ3hnMWg1UlRkdmc9PSIsInZhbHVlIjoiS1IvUTBsRkFyaEFuTVlFclRRZDE5UT09IiwibWFjIjoiMTZlYTliMGYwZjBiZDdlNzgxOTgzZTlkNzY3ZGY0NDk4NzU5OWI5MjY0NDA2ODBjNWI5ZmJkZDU1N2IxYzk1NSIsInRhZyI6IiJ9",
+        "id_external": "19d55b971af3d1b805c04dc36136b2cc",
+        "taxonomy_id_external": "a122fee798efeb9a5af694d8363f1ff5",
+        "business_activities_id_external": "504e382d546dbee578686f130887ec23"
+      }
+    ],
+    "id_external": "a122fee798efeb9a5af694d8363f1ff5",
+    "questionnaire_id_external": "f462d6bc968888e86e47db0176c04fca"
+  }
+}

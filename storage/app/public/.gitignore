@@ -1,0 +1,10 @@
+*
+!library/
+!library/**
+!toolkits/
+!toolkits/**
+!glossary/
+!glossary/**
+!documentation/
+!documentation/**
+!.gitignore

@@ -1,0 +1,195 @@
+version: "3.5"
+
+networks:
+  frontend:
+    driver: ${NETWORKS_DRIVER}
+  backend:
+    driver: ${NETWORKS_DRIVER}
+
+volumes:
+  mysql:
+    driver: ${VOLUMES_DRIVER}
+  redis:
+    driver: ${VOLUMES_DRIVER}
+  vendor:
+  node_modules:
+  public:
+
+services:
+  ### PHP-Apache ###
+  php-apache:
+    image: registry.gitlab.com/c-more/app:main-latest
+    command: /bin/sh -c /php-apache-entrypoint.sh
+    container_name: php-apache
+    deploy:
+      resources:
+        limits:
+          cpus: "0.90"
+          memory: 8G
+        reservations:
+          cpus: "0.10"
+          memory: 1G
+    depends_on:
+      - mysql
+      - redis
+    ports:
+      - "${PHP_APACHE_PORT}:8080"
+      - 9003
+    networks:
+      - frontend
+      - backend
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - .:${APP_CODE_PATH_CONTAINER}
+      - vendor:${APP_CODE_PATH_CONTAINER}/vendor
+      - node_modules:${APP_CODE_PATH_CONTAINER}/node_modules
+      - public:${APP_CODE_PATH_CONTAINER}/public
+      - ./docker/php-apache/apache.conf:/etc/apache2/sites-enabled/000-default.conf
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://saas.test:8080"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+
+  ### PHP Worker ###
+  php-worker:
+    image: registry.gitlab.com/c-more/app:main-latest
+    command: /bin/sh -c /php-worker-entrypoint.dev.sh
+    container_name: php-worker
+    deploy:
+      resources:
+        limits:
+          cpus: "0.90"
+          memory: 8G
+        reservations:
+          cpus: "0.10"
+          memory: 1G
+    depends_on:
+      - php-apache
+    networks:
+      - backend
+    volumes:
+      - .:${APP_CODE_PATH_CONTAINER}
+      - vendor:${APP_CODE_PATH_CONTAINER}/vendor
+      - node_modules:${APP_CODE_PATH_CONTAINER}/node_modules
+      - public:${APP_CODE_PATH_CONTAINER}/public
+      - ./docker/php-worker/supervisord.d:/etc/supervisord.d
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://saas.test:8080"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+
+  ### MySQL ###
+  mysql:
+    container_name: cmore-mysql
+    build:
+      context: ./docker/mysql
+      args:
+        - MYSQL_VERSION=${MYSQL_VERSION}
+    deploy:
+      resources:
+        limits:
+          cpus: "0.80"
+          memory: 8G
+        reservations:
+          cpus: "0.10"
+          memory: 2G
+    environment:
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - TZ=UTC
+    volumes:
+      - ${DATA_PATH_HOST}/mysql:/var/lib/mysql
+      - ${MYSQL_ENTRYPOINT_INITDB}:/docker-entrypoint-initdb.d
+    ports:
+      - "${MYSQL_PORT}:3306"
+    networks:
+      - backend
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+
+  ### Redis ###
+  redis:
+    build: ./docker/redis
+    container_name: cmore-redis
+    deploy:
+      resources:
+        limits:
+          cpus: "0.50"
+          memory: 2G
+        reservations:
+          cpus: "0.01"
+          memory: 50m
+    volumes:
+      - ${DATA_PATH_HOST}/redis:/data
+    ports:
+      - "${REDIS_PORT}:6379"
+    networks:
+      - backend
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: cmore-phpmyadmin
+    deploy:
+      resources:
+        limits:
+          cpus: "0.20"
+          memory: 4G
+        reservations:
+          cpus: "0.01"
+          memory: 200m
+    ports:
+      - 8080:80
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=mysql
+      - PMA_USER=root
+      - PMA_PASSWORD=root
+    networks:
+      - backend
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+
+  cypress:
+    image: cypress/included
+    container_name: cypress
+    working_dir: /e2e
+    environment:
+      - CYPRESS_VIDEO=false
+      #   - CYPRESS_BASE_URL=http://php-apache
+      - DISPLAY=:0
+    entrypoint: ["npx", "cypress", "open", "--project", "."]
+    deploy:
+      resources:
+        limits:
+          cpus: "0.50"
+          memory: 6G
+        reservations:
+          cpus: "0.010"
+          memory: 200m
+    # command: /bin/sh -c "npm install -y && npm run cypress:run"
+    ports:
+      - 5432:5432
+    links:
+      - php-apache
+    volumes:
+      - .:/e2e
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    networks:
+      - backend
+    # command: "--spec /e2e/integration/main.cy.js"
